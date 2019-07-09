@@ -1,0 +1,251 @@
+<!-- START SIGMA IMPORTS -->
+<script src="js/script.js"></script>
+<!-- extra for the functions -->
+<!-- END SIGMA IMPORTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<div id="container">
+    <style>
+        #graph-container {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+            }
+        .infos {
+            background-color:blue;
+            font-size: 18px;
+            color: white;
+        }
+    </style>
+  <div id="graph-container"></div>
+  <div id="aparecer"></div>
+</div>
+<script>
+    /**
+    * This is a basic example on how to instantiate sigma. A random graph is
+    * generated and stored in the "graph" variable, and then sigma is instantiated
+    * directly with the graph.
+    *
+    * The simple instance of sigma is enough to make it render the graph on the on
+    * the screen, since the graph is given directly to the constructor.
+    */
+    var i,
+        s,
+        N = 10,
+        E = 20,
+        g = {},
+        loaded = 0
+        ;
+
+    // Generate a random graph
+    // for (i = 0; i < N; i++) {
+    //     g.nodes.push({
+    //         id: 'n' + i,
+    //         label: 'Node ' + i,
+    //         type: 'image',
+    //         url: urls[Math.floor(Math.random() * urls.length)],
+    //         x: Math.random(),
+    //         y: Math.random(),
+    //         size: Math.random(),
+    //         color: colors[Math.floor(Math.random() * colors.length)],
+    //     });
+    // }
+
+    g = {
+        "nodes": [
+            {
+                "id": "pessoa-1",
+                "label": "Pedro",
+                "x": Math.random(),
+                "y": Math.random(),
+                "color": "rgb(255,204,102)",
+                "size": 8.540211,
+            },
+            {
+                "id": "pessoa-2",
+                "label": "Henrique",
+                "x": Math.random(),
+                "y": Math.random(),
+                "color": "rgb(123,204,102)",
+                "size": 8.540211,
+            },
+            {
+                "id": "pessoa-3",
+                "label": "Marianna",
+                "x": Math.random(),
+                "y": Math.random(),
+                "color": "rgb(255,123,102)",
+                "size": 8.540211,
+            },
+            {
+                "id": "pessoa-4",
+                "label": "Claudia",
+                "x": Math.random(),
+                "y": Math.random(),
+                "color": "rgb(255,204,123)",
+                "size": 8.540211,
+            },
+            {
+                "id": "pessoa-5",
+                "label": "Juliana",
+                "x": Math.random(),
+                "y": Math.random(),
+                "color": "rgb(120,23,255)",
+                "size": 8.540211,
+            }
+        ],
+        "edges": [
+            {
+                id: 'e1',
+                source: 'pessoa-1',
+                target: 'pessoa-2',
+                size: Math.random(),
+            },
+            {
+                id: 'e2',
+                source: 'pessoa-5',
+                target: 'pessoa-3',
+                size: Math.random(),
+            },
+            {
+                id: 'e3',
+                source: 'pessoa-4',
+                target: 'pessoa-2',
+                size: Math.random(),
+            },
+            {
+                id: 'e4',
+                source: 'pessoa-2',
+                target: 'pessoa-1',
+                size: Math.random(),
+            },
+            {
+                id: 'e5',
+                source: 'pessoa-3',
+                target: 'pessoa-2',
+                size: Math.random(),
+            },
+        ]
+    };
+
+    // Add a method to the graph model that returns an
+    // object with every neighbors of a node inside:
+    sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+        var k,
+            neighbors = {},
+            index = this.allNeighborsIndex[nodeId] || {};
+
+        for (k in index)
+        neighbors[k] = this.nodesIndex[k];
+
+        return neighbors;
+    });
+
+    // Instantiate sigma:
+    s = new sigma({
+        graph: g,
+        renderer: {
+            // IMPORTANT:
+            // This works only with the canvas renderer, so the
+            // renderer type set as "canvas" is necessary here.
+            container: document.getElementById('graph-container'),
+            type: 'canvas',
+        },
+        settings: {
+            minNodeSize: 8,
+            maxNodeSize: 16,
+        },
+    });
+
+    // We first need to save the original colors of our
+    // nodes and edges, like this:
+    s.graph.nodes().forEach(function(n) {
+        n.originalColor = n.color;
+    });
+    s.graph.edges().forEach(function(e) {
+        e.originalColor = e.color;
+    });
+
+    // When a node is clicked, we check for each node
+    // if it is a neighbor of the clicked one. If not,
+    // we set its color as grey, and else, it takes its
+    // original color.
+    // We do the same for the edges, and we only keep
+    // edges that have both extremities colored.
+    s.bind('clickNode', function(e) {
+        var nodeId = e.data.node.id,
+            toKeep = s.graph.neighbors(nodeId);
+        toKeep[nodeId] = e.data.node;
+
+        s.graph.nodes().forEach(function(n) {
+            if (toKeep[n.id])
+                n.color = n.originalColor;
+            else
+                n.color = '#eee';
+        });
+
+        s.graph.edges().forEach(function(e) {
+            if (toKeep[e.source] && toKeep[e.target])
+                e.color = e.originalColor;
+            else
+                e.color = '#eee';
+        });
+
+        // console.log(s.graph.nodes(nodeId). e.data);
+
+        // Since the data has been modified, we need to
+        // call the refresh method to make the colors
+        // update effective.
+        s.refresh();
+    });
+
+    s.bind('overNode', function(e) {
+        // console.log(e.data.node["renderer1:x"]);
+        var novaDiv = '<div style="position: absolute; background-color: red; top:' + e.data.node["renderer1:y"] + 'px; left: ' + e.data.node["renderer1:x"] + 'px;"><a href="http://google.com">Olá mundo!!</a></div>';
+        // console.log(novaDiv);
+        $("#aparecer").html(novaDiv);
+    });
+
+    s.bind('outNode', function (e) {
+        $("#aparecer").empty();
+    });
+
+    // When the stage is clicked, we just color each
+    // node and edge with its original color.
+    s.bind('clickStage', function(e) {
+        s.graph.nodes().forEach(function(n) {
+            n.color = n.originalColor;
+        });
+
+        s.graph.edges().forEach(function(e) {
+            e.color = e.originalColor;
+        });
+        $("#aparecer").empty();
+
+
+        // Same as in the previous event:
+        s.refresh();
+    });
+
+    // Configure the noverlap layout:
+    var noverlapListener = s.configNoverlap({
+        nodeMargin: 0.1,
+        scaleNodes: 1.05,
+        gridSize: 75,
+        easing: 'quadraticInOut', // animation transition function
+        duration: 100   // animation duration. Long here for the purposes of this example only
+    });
+    // Bind the events:
+    noverlapListener.bind('start stop interpolate', function(e) {
+        console.log(e.type);
+        if(e.type === 'start') {
+            console.time('noverlap');
+        }
+        if(e.type === 'interpolate') {
+            console.timeEnd('noverlap');
+        }
+    });
+    // Start the layout:
+    s.startNoverlap();
+</script>

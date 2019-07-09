@@ -1,0 +1,29 @@
+{
+  "name": "rckt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/style.scss:css/style.css",
+    "watch": "sass scss/style.scss:css/style.css --watch",
+    "serve": "php -S localhost:8000",
+    "start": "http-server -p 8000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "sigma": "^1.2.1",
+    "sigma-webpack": "^1.2.0-1",
+    "http-server": "~0.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
