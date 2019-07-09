@@ -1,0 +1,19 @@
+@include media-breakpoint-up(md) {
+  // medium
+  body {
+    font-size: 40px;
+  }
+
+  .grafo-gn {
+    h1 {
+      font-size: 4.875em; // 195px
+    }
+    h2 {
+      font-size: 2.5em;// 100px
+    }
+    .select-word {
+      max-height: 600px;
+    }
+  }
+
+}
