@@ -26,6 +26,7 @@
         g = {}
         ;
 
+    // objeto pra criar o grafo
     g = {
         "nodes": [
             {
@@ -108,6 +109,20 @@
         ]
     };
 
+    // as palavras do filtro 
+    var words = [];
+
+    // cada palavra é uma posicao no array, e os ids das pessoas vao dentro como outro array
+    words['carencia'] = [
+        'pessoa-1',
+        'pessoa-2',
+    ];
+
+    words['poder'] = [
+        'pessoa-1',
+        'pessoa-5',
+    ];
+
     // Add a method to the graph model that returns an
     // object with every neighbors of a node inside:
     sigma.classes.graph.addMethod('neighbors', function(nodeId) {
@@ -116,7 +131,7 @@
             index = this.allNeighborsIndex[nodeId] || {};
 
         for (k in index)
-        neighbors[k] = this.nodesIndex[k];
+            neighbors[k] = this.nodesIndex[k];
 
         return neighbors;
     });
@@ -186,19 +201,6 @@
         s.refresh();
     });
 
-    s.bind('overNode', function(e) {
-        var y = e.data.node["renderer1:y"] - 25;
-        var x = e.data.node["renderer1:x"] + 6;
-        var novaDiv = '<div style="position: absolute; background-color: red; top:' + y + 'px; left: ' + x + 'px;"><a href="http://google.com">Olá mundo!!</a></div>';
-        // $("#aparecer").html(novaDiv);
-        setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
-    });
-
-    s.bind('outNode', function (e) {
-        // $("#aparecer").empty();
-        setTimeout(function(){ $("#aparecer").empty(); }, 3000);
-    });
-
     // When the stage is clicked, we just color each
     // node and edge with its original color.
     s.bind('clickStage', function(e) {
@@ -215,6 +217,52 @@
         // Same as in the previous event:
         s.refresh();
     });
+
+    s.bind('overNode', function(e) {
+        var y = e.data.node["renderer1:y"] - 25;
+        var x = e.data.node["renderer1:x"] + 6;
+        var novaDiv = '<div style="position: absolute; background-color: red; top:' + y + 'px; left: ' + x + 'px;"><a href="http://google.com">Olá mundo!!</a></div>';
+        // $("#aparecer").html(novaDiv);
+        setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
+    });
+
+    s.bind('outNode', function (e) {
+        // $("#aparecer").empty();
+        setTimeout(function(){ $("#aparecer").empty(); }, 3000);
+    });
+
+    var posicao = "poder";
+    var ids = words[posicao];
+    console.log(ids);
+    
+    // var nodeId = e.data.node.id,
+    //     toKeep = s.graph.neighbors(nodeId);
+    // toKeep[nodeId] = e.data.node;
+
+    s.graph.nodes().forEach(function(n) {
+        console.log($.inArray(n.id, ids));
+        
+        if ($.inArray(n.id, ids) > -1)
+            n.color = n.originalColor;
+        else
+            n.color = '#eee';
+    });
+
+    // filtro de palavras
+    // $(".filter-word").click(function () {
+    //     var posicao = $(this).data('value');
+    //     var ids = words[posicao];
+    //     // var nodeId = e.data.node.id,
+    //     //     toKeep = s.graph.neighbors(nodeId);
+    //     // toKeep[nodeId] = e.data.node;
+
+    //     s.graph.nodes().forEach(function(n) {
+    //         if (ids[n.id])
+    //             n.color = n.originalColor;
+    //         else
+    //             n.color = '#eee';
+    //     });
+    // });
 
     // Configure the noverlap layout:
     var noverlapListener = s.configNoverlap({
