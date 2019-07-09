@@ -1,6 +1,5 @@
 <!-- START SIGMA IMPORTS -->
 <script src="js/script.js"></script>
-<!-- extra for the functions -->
 <!-- END SIGMA IMPORTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <div id="container">
@@ -22,35 +21,10 @@
   <div id="aparecer"></div>
 </div>
 <script>
-    /**
-    * This is a basic example on how to instantiate sigma. A random graph is
-    * generated and stored in the "graph" variable, and then sigma is instantiated
-    * directly with the graph.
-    *
-    * The simple instance of sigma is enough to make it render the graph on the on
-    * the screen, since the graph is given directly to the constructor.
-    */
     var i,
         s,
-        N = 10,
-        E = 20,
-        g = {},
-        loaded = 0
+        g = {}
         ;
-
-    // Generate a random graph
-    // for (i = 0; i < N; i++) {
-    //     g.nodes.push({
-    //         id: 'n' + i,
-    //         label: 'Node ' + i,
-    //         type: 'image',
-    //         url: urls[Math.floor(Math.random() * urls.length)],
-    //         x: Math.random(),
-    //         y: Math.random(),
-    //         size: Math.random(),
-    //         color: colors[Math.floor(Math.random() * colors.length)],
-    //     });
-    // }
 
     g = {
         "nodes": [
@@ -101,30 +75,35 @@
                 source: 'pessoa-1',
                 target: 'pessoa-2',
                 size: Math.random(),
+                type: "dash",
             },
             {
                 id: 'e2',
                 source: 'pessoa-5',
                 target: 'pessoa-3',
                 size: Math.random(),
+                type: "dash",
             },
             {
                 id: 'e3',
                 source: 'pessoa-4',
                 target: 'pessoa-2',
                 size: Math.random(),
+                type: "dash",
             },
             {
                 id: 'e4',
                 source: 'pessoa-2',
                 target: 'pessoa-1',
                 size: Math.random(),
+                type: "dash",
             },
             {
                 id: 'e5',
                 source: 'pessoa-3',
                 target: 'pessoa-2',
                 size: Math.random(),
+                type: "dash",
             },
         ]
     };
@@ -155,6 +134,13 @@
         settings: {
             minNodeSize: 8,
             maxNodeSize: 16,
+            minEdgeSize: 2,
+            maxEdgeSize: 2,
+            singleHover: true,
+            drawLabels: false,
+            drawEdgeLabels: false,
+            enableEdgeHovering: false,
+            enableHovering: false,
         },
     });
 
@@ -186,13 +172,13 @@
         });
 
         s.graph.edges().forEach(function(e) {
-            if (toKeep[e.source] && toKeep[e.target])
+            if (toKeep[e.source] && toKeep[e.target]) {
                 e.color = e.originalColor;
+                e.type = "arrow";
+            }
             else
                 e.color = '#eee';
         });
-
-        // console.log(s.graph.nodes(nodeId). e.data);
 
         // Since the data has been modified, we need to
         // call the refresh method to make the colors
@@ -201,14 +187,16 @@
     });
 
     s.bind('overNode', function(e) {
-        // console.log(e.data.node["renderer1:x"]);
-        var novaDiv = '<div style="position: absolute; background-color: red; top:' + e.data.node["renderer1:y"] + 'px; left: ' + e.data.node["renderer1:x"] + 'px;"><a href="http://google.com">Olá mundo!!</a></div>';
-        // console.log(novaDiv);
-        $("#aparecer").html(novaDiv);
+        var y = e.data.node["renderer1:y"] - 25;
+        var x = e.data.node["renderer1:x"] + 6;
+        var novaDiv = '<div style="position: absolute; background-color: red; top:' + y + 'px; left: ' + x + 'px;"><a href="http://google.com">Olá mundo!!</a></div>';
+        // $("#aparecer").html(novaDiv);
+        setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
     });
 
     s.bind('outNode', function (e) {
-        $("#aparecer").empty();
+        // $("#aparecer").empty();
+        setTimeout(function(){ $("#aparecer").empty(); }, 3000);
     });
 
     // When the stage is clicked, we just color each
@@ -220,9 +208,9 @@
 
         s.graph.edges().forEach(function(e) {
             e.color = e.originalColor;
+            e.type = "dash";
         });
-        $("#aparecer").empty();
-
+        // $("#aparecer").empty();
 
         // Same as in the previous event:
         s.refresh();

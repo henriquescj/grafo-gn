@@ -16,13 +16,10 @@ var sourcemaps = require('gulp-sourcemaps');
 gulp.task('js', function(){
   return gulp
     .src([
-      // 'node_modules/jquery/dist/jquery.min.js',
-      // 'node_modules/popper.js/dist/umd/popper.min.js',
-      // 'node_modules/bootstrap/dist/js/bootstrap.min.js',
-      // 'src/js/script.js',
       'node_modules/sigma/build/sigma.min.js',
       'node_modules/sigma/build/plugins/sigma.plugins.animate.min.js',
       'node_modules/sigma/build/plugins/sigma.layout.noverlap.min.js',
+      'node_modules/sigma/build/plugins/sigma.renderers.customEdgeShapes.min.js',
     ])
     .pipe(sourcemaps.init())
     .pipe(concat('script.js'))
@@ -51,9 +48,9 @@ gulp.task('watch', function() {
   //     gulp.run('css');
   // });
 
-  // gulp.watch('src/**/*.js', function(event) {
-  //     console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
-  //     gulp.run('default');
-  // });
+  gulp.watch('src/**/*.js', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+      gulp.run('default');
+  });
 
 });
