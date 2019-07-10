@@ -2,31 +2,52 @@
 <script src="js/script.js"></script>
 <!-- END SIGMA IMPORTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<div id="container">
-    <style>
-        #graph-container {
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            position: absolute;
+<link rel="stylesheet" href="/css/style.css">
+    <section class="grafo-gn">
+        <style>
+            #graph-container {
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                position: absolute;
+                width: 500px;
+                height: 400px;
+                margin: auto;
             }
-        .infos {
-            background-color:blue;
-            font-size: 18px;
-            color: white;
-        }
-    </style>
-  <div id="graph-container"></div>
-  <div id="aparecer"></div>
-</div>
+            .infos {
+                background-color:blue;
+                font-size: 18px;
+                color: white;
+            }
+        </style>
+        <div id="graph-container"></div>
+        <div id="aparecer"></div>
+        <div class="container">
+            <div class="row">
+                <div class="mt-5 ml-5">
+                    <div class="select-word">
+                        <div class="grafo-word filter-word" data-value="aborto">Aborto</div>
+                        <div class="grafo-word filter-word" data-value="">escola</div>
+                        <div class="grafo-word filter-word" data-value="">escolha</div>
+                        <div class="grafo-word filter-word" data-value="">nascer</div>
+                        <div class="grafo-word filter-word" data-value="">aborto</div>
+                        <div class="grafo-word filter-word" data-value="">certo</div>
+                        <div class="grafo-word filter-word" data-value="">errado</div>
+                        <div class="grafo-word filter-word" data-value="carencia">carencia</div>
+                        <div class="grafo-word filter-word" data-value="poder">poder</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 <script>
     var i,
         s,
         g = {}
         ;
 
-    // objeto pra criar o grafo
+    // objeto pra criar o grafo, pessoas e ligacoes vao aqui
     g = {
         "nodes": [
             {
@@ -46,6 +67,8 @@
                 "y": Math.random(),
                 "color": "rgb(123,204,102)",
                 "size": 8.540211,
+                "img":  "/img/perfil-um.jpg",
+                "link": "http://dev.rckt.com.br/ucc/"
             },
             {
                 "id": "pessoa-3",
@@ -54,6 +77,8 @@
                 "y": Math.random(),
                 "color": "rgb(255,123,102)",
                 "size": 8.540211,
+                "img":  "/img/perfil-um.jpg",
+                "link": "http://dev.rckt.com.br/ucc/"
             },
             {
                 "id": "pessoa-4",
@@ -62,6 +87,8 @@
                 "y": Math.random(),
                 "color": "rgb(255,204,123)",
                 "size": 8.540211,
+                "img":  "/img/perfil-um.jpg",
+                "link": "http://dev.rckt.com.br/ucc/"
             },
             {
                 "id": "pessoa-5",
@@ -70,6 +97,8 @@
                 "y": Math.random(),
                 "color": "rgb(120,23,255)",
                 "size": 8.540211,
+                "img":  "/img/perfil-um.jpg",
+                "link": "http://dev.rckt.com.br/ucc/"
             }
         ],
         "edges": [
@@ -111,19 +140,591 @@
         ]
     };
 
-    // as palavras do filtro 
+    // array das palavras do filtro 
     var words = [];
 
     // cada palavra é uma posicao no array, e os ids das pessoas vao dentro como outro array
-    words['carencia'] = [
-        'pessoa-1',
-        'pessoa-2',
+    words['aborto'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'robson-rodovalho',
+        'eduardo-bolsonaro',
+        'joice-hasselmann',
+        'marco-feliciano',
+        'silas-malafaia',
+        'priscila-costa',
     ];
-
-    words['poder'] = [
-        'pessoa-1',
-        'pessoa-5',
+    words['adolescentes'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'damares-alves',
+        'anderson-ferreira',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joao-campos',
+        'leandro-ruschel',
+        'priscila-costa',
     ];
+    words['alunos'] = [
+        'ailton-benedito-de-sousa',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'major-vitor-hugo',
+        'silas-malafaia',
+        'rodrigo-constantino',
+    ]
+    words['apoio'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'alvaro-dias',
+        'lucia-rodovalho',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'janaina-paschoal',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'luiz-philippe-o-braganca',
+        'marco-feliciano',
+        'silas-malafaia',
+        'priscila-costa',
+    ];
+    words['arma'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'fernando-francischini',
+        'janaina-paschoal',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'paulo-martins',
+        'priscila-costa',
+    ];
+    words['ataque'] = [
+        'ailton-benedito-de-sousa',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'marco-feliciano',
+    ];
+    words['aula'] = [
+        'ailton-benedito-de-sousa',
+        'alvaro-dias',
+        'eduardo-bolsonaro',
+        'joao-campos',
+        'joselito-muller',
+        'silas-malafaia',
+        'paulo-martins',
+        'priscila-costa',
+    ];
+    words['bolsonaro'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'ricardo-arruda',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'jaufran-siqueira',
+        'joselito-muller',
+        'leandro-ruschel',
+        'silas-malafaia',
+        'priscila-costa',
+    ];
+    words['bom'] = [
+        'michele-collins',
+        'ailton-benedito-de-sousa',
+        'alberto-fraga',
+        'alexandre-frota',
+        'lucia-rodovalho',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'ricardo-arruda',
+        'francisco-junior',
+        'janaina-paschoal',
+        'jaufran-siqueira',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'magno-malta',
+        'marco-feliciano',
+    ];
+    words['brasil'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'pastor-altair-germano',
+        'alvaro-dias',
+        'bernardo-pires-kuster',
+        'robson-rodovalho',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'ricardo-arruda',
+        'flavio-bolsonaro',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'julio-cesar-ribeiro',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'major-vitor-hugo',
+        'marco-feliciano',
+        'olavo-de-carvalho',
+        'pr-jecer-goes',
+        'paulo-martins',
+        'priscila-costa',
+        'rafaell-milas-de-oliveira',
+    ];
+    words['brasileiros'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'alvaro-dias',
+        'eduardo-bolsonaro',
+        'leandro-ruschel',
+        'magno-malta',
+        'priscila-costa',
+    ];
+    words['camara'] = [
+        'michele-collins',
+        'alexandre-frota',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'francisco-junior',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'julio-cesar-ribeiro',
+        'liziane-bayer',
+        'marco-feliciano',
+        'sargento-fahur',
+    ];
+    words['carnaval'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'joselito-muller',
+        'leandro-ruschel',
+        'silas-malafaia',
+    ];
+    words['caso'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'janaina-paschoal',
+        'joao-campos',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'marco-feliciano',
+        'silas-malafaia',
+        'paulo-martins',
+        'priscila-costa',
+        'rodrigo-constantino',
+    ];
+    words['congresso'] = [
+        'michele-collins',
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'alvaro-dias',
+        'ana-paula-valadao',
+        'bernardo-pires-kuster',
+        'lucia-rodovalho',
+        'robson-rodovalho',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'silas-malafaia',
+        'paulo-martins',
+    ];
+    words['constituicao'] = [
+        'ailton-benedito-de-sousa',
+        'damares-alves',
+        'felipe-francischini',
+        'leandro-ruschel',
+        'marco-feliciano',
+        'silas-malafaia',
+    ];
+    words['contra'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'alvaro-dias',
+        'bernardo-pires-kuster',
+        'robson-rodovalho',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'julio-cesar-ribeiro',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'marco-feliciano',
+        'silas-malafaia',
+        'paulo-martins',
+        'priscila-costa',
+        'rodrigo-constantino',
+    ];
+    words['correto'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'ricardo-arruda',
+        'fernando-francischini',
+        'janaina-paschoal',
+        'jaufran-siqueira',
+        'joselito-muller',
+        'leandro-ruschel',
+        'silas-malafaia',
+        'paulo-martins',
+        'rodrigo-constantino',
+    ];
+    words['criancas'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'alvaro-dias',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'anderson-ferreira',
+        'flavio-bolsonaro',
+        'fernando-francischini',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'julio-cesar-ribeiro',
+        'leandro-ruschel',
+        'magno-malta',
+        'major-vitor-hugo',
+        'marco-feliciano',
+        'pr-jecer-goes',
+        'silas-malafaia',
+        'paulo-martins',
+        'priscila-costa',
+        'rodrigo-constantino',
+    ];
+    words['crime'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'fernando-francischini',
+        'janaina-paschoal',
+        'joice-hasselmann',
+        'joselito-muller',
+        'julio-cesar-ribeiro',
+        'leandro-ruschel',
+        'marco-feliciano',
+        'silas-malafaia',
+        'priscila-costa',
+        'rodrigo-constantino',
+        'sargento-fahur',
+    ];
+    words['criminaizacao'] = [
+        'michele-collins',
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'pastor-altair-germano',
+        'jair-bolsonaro',
+        'joice-hasselmann',
+        'joselito-muller',
+        'leandro-ruschel',
+        'paulo-martins',
+        'rodrigo-constantino',
+    ];
+    words['defender'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'janaina-paschoal',
+        'jaufran-siqueira',
+        'leandro-ruschel',
+        'magno-malta',
+        'silas-malafaia',
+        'priscila-costa',
+    ];
+    words['defesa'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'silas-malafaia',
+        'paulo-martins',
+        'sargento-fahur',
+    ];
+    words['deus'] = [
+        'michele-collins',
+        'alexandre-frota',
+        'pastor-altair-germano',
+        'ana-paula-valadao',
+        'bernardo-pires-kuster',
+        'lucia-rodovalho',
+        'robson-rodovalho',
+        'carlos-bolsonaro',
+        'flavio-bolsonaro',
+        'fernando-francischini',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joao-campos',
+        'josue-goncalves',
+        'julio-cesar-ribeiro',
+        'liziane-bayer',
+        'marco-feliciano',
+        'pr-jecer-goes',
+        'silas-malafaia',
+        'priscila-costa',
+        'sargento-fahur',
+    ];
+    words['direito'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'damares-alves',
+        'ricardo-arruda',
+        'janaina-paschoal',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'magno-malta',
+        'marco-feliciano',
+        'paulo-martins',
+        'priscila-costa',
+    ];
+    words['direitos'] = [
+        'ailton-benedito-de-sousa',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'jeferson-rodrigues',
+        'joao-campos',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'magno-malta',
+        'major-vitor-hugo',
+        'priscila-costa',
+    ];
+    words['educacao'] = [
+        'ailton-benedito-de-sousa',
+        'pastor-altair-germano',
+        'alvaro-dias',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'ricardo-arruda',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joselito-muller',
+        'liziane-bayer',
+        'luiz-philippe-o-braganca',
+        'major-vitor-hugo',
+        'priscila-costa',
+        'rodrigo-constantino',
+    ];
+    words['ensinar'] = [
+        'ailton-benedito-de-sousa',
+        'damares-alves',
+        'janaina-paschoal',
+        'leandro-ruschel',
+        'silas-malafaia',
+    ];
+    words['escola'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'pastor-altair-germano',
+        'alvaro-dias',
+        'bernardo-pires-kuster',
+        'lucia-rodovalho',
+        'robson-rodovalho',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'ricardo-arruda',
+        'fernando-francischini',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'jeferson-rodrigues',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'juanribe-pagliarin',
+        'julio-cesar-ribeiro',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'luiz-philippe-o-braganca',
+        'magno-malta',
+        'major-vitor-hugo',
+        'marco-feliciano',
+        'pr-jecer-goes',
+        'silas-malafaia',
+        'paulo-martins',
+        'priscila-costa',
+        'rodrigo-constantino',
+    ];
+    words['escolas'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'damares-alves',
+        'ricardo-arruda',
+        'fernando-francischini',
+        'jair-bolsonaro',
+        'jeferson-rodrigues',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'silas-malafaia',
+        'priscila-costa',
+    ];
+    words['especial'] = [
+        'michele-collins',
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'fernando-francischini',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'joice-hasselmann',
+        'liziane-bayer',
+        'major-vitor-hugo',
+        'silas-malafaia',
+    ];
+    words['esquerda'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'fernando-francischini',
+        'janaina-paschoal',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'magno-malta',
+        'major-vitor-hugo',
+        'marco-feliciano',
+        'pr-jecer-goes',
+        'silas-malafaia',
+        'paulo-martins',
+        'rodrigo-constantino',
+        'sargento-fahur',
+    ];
+    words['estado'] = [
+        'michele-collins',
+        'ailton-benedito-de-sousa',
+        'bernardo-pires-kuster',
+        'eduardo-bolsonaro',
+        'damares-alves',
+        'ricardo-arruda',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'janaina-paschoal',
+        'jeferson-rodrigues',
+        'joice-hasselmann',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'priscila-costa',
+    ];
+    words['exemplo'] = [
+        'ailton-benedito-de-sousa',
+        'lucia-rodovalho',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'janaina-paschoal',
+        'leandro-ruschel',
+        'major-vitor-hugo',
+        'marco-feliciano',
+        'paulo-martins',
+        'rodrigo-constantino',
+    ];
+    words['familia'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'lucia-rodovalho',
+        'eduardo-bolsonaro',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'francisco-junior',
+        'jair-bolsonaro',
+        'jaufran-siqueira',
+        'jeferson-rodrigues',
+        'joao-campos',
+        'joice-hasselmann',
+        'joselito-muller',
+        'leandro-ruschel',
+        'major-vitor-hugo',
+        'marco-feliciano',
+        'silas-malafaia',
+        'priscila-costa',
+    ];
+    words['familias'] = [
+        'ailton-benedito-de-sousa',
+        'alexandre-frota',
+        'bernardo-pires-kuster',
+        'carlos-bolsonaro',
+        'damares-alves',
+        'janaina-paschoal',
+        'jeferson-rodrigues',
+        'julio-cesar-ribeiro',
+        'liziane-bayer',
+        'paulo-martins',
+        'priscila-costa',
+    ];
+    words['favor'] = [
+        'alexandre-frota',
+        'alvaro-dias',
+        'bernardo-pires-kuster',
+        'damares-alves',
+        'ricardo-arruda',
+        'janaina-paschoal',
+        'joao-campos',
+        'leandro-ruschel',
+        'pr-jecer-goes',
+        'silas-malafaia',
+        'sargento-fahur',
+    ];
+    words['federal'] = [
+        'ailton-benedito-de-sousa',
+        'pastor-altair-germano',
+        'damares-alves',
+        'joao-campos',
+        'julio-cesar-ribeiro',
+        'leandro-ruschel',
+        'liziane-bayer',
+        'marco-feliciano',
+        'paulo-martins',
+        'priscila-costa',
+    ];
+    // continuar amanha
 
     // Add a method to the graph model that returns an
     // object with every neighbors of a node inside:
@@ -206,7 +807,7 @@
     s.bind('overNode', function(e) {
         var y = e.data.node["renderer1:y"] - 25;
         var x = e.data.node["renderer1:x"] + 6;
-        var novaDiv =
+        var novaDiv = "";
 
         novaDiv +='<div class="box-infos" style="position: absolute; top:' + y + 'px; left: ' + x + 'px;">';
           novaDiv +='<div class="talk-bubble tri-right btm-left">';
@@ -217,14 +818,14 @@
           novaDiv +='</div>';
         novaDiv +='</div>';
 
-        // $("#aparecer").html(novaDiv);
-        setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
+        $("#aparecer").html(novaDiv);
+        // setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
     });
 
-    // s.bind('outNode', function (e) {
-    //     // $("#aparecer").empty();
-    //     setTimeout(function(){ $("#aparecer").empty(); }, 3000);
-    // });
+    s.bind('outNode', function (e) {
+        // $("#aparecer").empty();
+        setTimeout(function(){ $("#aparecer").empty(); }, 3000);
+    });
 
     // When the stage is clicked, we just color each
     // node and edge with its original color.
@@ -243,51 +844,22 @@
         s.refresh();
     });
 
-    s.bind('overNode', function(e) {
-        var y = e.data.node["renderer1:y"] - 25;
-        var x = e.data.node["renderer1:x"] + 6;
-        var novaDiv = '<div style="position: absolute; background-color: red; top:' + y + 'px; left: ' + x + 'px;"><a href="http://google.com">Olá mundo!!</a></div>';
-        // $("#aparecer").html(novaDiv);
-        setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
-    });
-
-    s.bind('outNode', function (e) {
-        // $("#aparecer").empty();
-        setTimeout(function(){ $("#aparecer").empty(); }, 3000);
-    });
-
-    var posicao = "poder";
-    var ids = words[posicao];
-    console.log(ids);
-    
-    // var nodeId = e.data.node.id,
-    //     toKeep = s.graph.neighbors(nodeId);
-    // toKeep[nodeId] = e.data.node;
-
-    s.graph.nodes().forEach(function(n) {
-        console.log($.inArray(n.id, ids));
-        
-        if ($.inArray(n.id, ids) > -1)
-            n.color = n.originalColor;
-        else
-            n.color = '#eee';
-    });
-
     // filtro de palavras
-    // $(".filter-word").click(function () {
-    //     var posicao = $(this).data('value');
-    //     var ids = words[posicao];
-    //     // var nodeId = e.data.node.id,
-    //     //     toKeep = s.graph.neighbors(nodeId);
-    //     // toKeep[nodeId] = e.data.node;
-
-    //     s.graph.nodes().forEach(function(n) {
-    //         if (ids[n.id])
-    //             n.color = n.originalColor;
-    //         else
-    //             n.color = '#eee';
-    //     });
-    // });
+    $(".filter-word").click(function () {
+        var posicao = $(this).data('value');
+        var ids = words[posicao];
+        s.graph.edges().forEach(function(e) {
+            e.color = '#eee';
+        });
+        s.graph.nodes().forEach(function(node) {
+            if ($.inArray(node.id, ids) > -1){
+                node.color = node.originalColor;
+            }
+            else
+                node.color = '#eee';
+        });
+        s.refresh();
+    });
 
     // Configure the noverlap layout:
     var noverlapListener = s.configNoverlap({
