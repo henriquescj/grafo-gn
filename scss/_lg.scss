@@ -6,20 +6,21 @@
       height: 700px;
       background-color: #f9f9f9;
   }
-  .grafo-gn {
-    .select-word {
-      overflow-y: auto;
-      max-height: 700px;
-      width: 100%;
-      border: 1px solid $dark-grey;
-      font-size: 16px;
-      color: $dark;
-      padding: 10px;
-    }
+
+  .select-word {
+    overflow-y: auto;
+    max-height: 577px;
+    width: 100%;
+    border: 1px solid $dark-grey;
+    font-size: 16px;
+    color: $dark;
+    padding: 10px;
   }
+
   .grafo-gn-canvas {
     width: 85%;
   }
+
   .grafo-gn-words {
     width: 15%;
   }

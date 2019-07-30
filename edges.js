@@ -580,15 +580,15 @@ $.each(edgesArray, function (index, person) {
 edgesArray = [
     'sargento-fahur',
 ];
-// $.each(edgesArray, function (index, person) {
-//     g.edges.push({
-//         id: 'helio-bolsonaro' + index,
-//         source: 'helio-bolsonaro',
-//         target: person,
-//         size: Math.random(),
-//         type: 'dash',
-//     });
-// });
+$.each(edgesArray, function (index, person) {
+    g.edges.push({
+        id: 'helio-bolsonaro' + index,
+        source: 'helio-bolsonaro',
+        target: person,
+        size: Math.random(),
+        type: 'dash',
+    });
+});
 // hidekazu-takayama
 edgesArray = [
     'bernardo-pires-kuster',

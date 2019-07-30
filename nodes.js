@@ -231,11 +231,11 @@ g = {
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
-            "id": "heIio-bolsonaro",
-            "label": "HeIio Bolsonaro",
+            "id": "helio-bolsonaro",
+            "label": "Helio Bolsonaro",
             "x": Math.random(),
             "y": Math.random(),
-            "color":   blue,
+            "color": blue,
             "size": 54,
             "img":  "/img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
