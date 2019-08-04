@@ -17,424 +17,425 @@ var blue = "rgb(0,49,61)",
 <script src="nodes.js"></script>
 <script src="edges.js"></script>
 <script src="words.js"></script>
+<script src="categories.js"></script>
 <section class="d-lg-flex">
-    <div class="grafo-gn grafo-gn-canvas mx-4">
-        <style>
-        </style>
-        <div id="graph-container"></div>
-        <div id="aparecer"></div>
-    </div>
-<div class="mx-4 ml-md-0">
-
-  <div class="grafo-gn">
-    <div class="checkbox checkbox-primary">
-      <input id="checkbox-midia" class="input-grafo" type="checkbox" checked="">
-      <label class="label-grafo" for="checkbox-midia">
-        Mídia
-      </label>
-    </div>
-    <div class="checkbox checkbox-secondary">
-      <input id="checkbox-religiao" class="input-grafo" type="checkbox" checked="">
-      <label class="label-grafo" for="checkbox-religiao">
-        Religião
-      </label>
-      </div>
-    <div class="checkbox checkbox-tertiary">
-      <input id="checkbox-politica" class="input-grafo" type="checkbox" checked="">
-      <label class="label-grafo" for="checkbox-politica">
-        Política
-      </label>
-    </div>
+  <div class="grafo-gn grafo-gn-canvas mx-4">
+      <style>
+      </style>
+      <div id="graph-container"></div>
+      <div id="aparecer"></div>
   </div>
+  <div class="mx-4 ml-md-0">
 
-  <div class="grafo-gn grafo-gn-words w-100">
-    <div class="select-word">
-      <div class="checkbox checkbox-words">
-        <div>
-          <input id="aborto" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="aborto">aborto</label>
-        </div>
-        <div>
-          <input id="adolescentes" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="adolescentes">adolescentes</label>
-        </div>
-        <div>
-          <input id="alunos" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="alunos">alunos</label>
-        </div>
-        <div>
-          <input id="apoio" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="apoio">apoio</label>
-        </div>
-        <div>
-          <input id="arma" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="arma">arma</label>
-        </div>
-        <div>
-          <input id="ataque" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="ataque">ataque</label>
-        </div>
-        <div>
-          <input id="aula" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="aula">aula</label>
-        </div>
-        <div>
-          <input id="bolsonaro" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="bolsonaro">bolsonaro</label>
-        </div>
-        <div>
-          <input id="bom" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="bom">bom</label>
-        </div>
-        <div>
-          <input id="brasil" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="brasil">brasil</label>
-        </div>
-        <div>
-          <input id="brasileiros" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="brasileiros">brasileiros</label>
-        </div>
-        <div>
-          <input id="camara" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="camara">camara</label>
-        </div>
-        <div>
-          <input id="carnaval" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="carnaval">carnaval</label>
-        </div>
-        <div>
-          <input id="caso" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="caso">caso</label>
-        </div>
-        <div>
-          <input id="congresso" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="congresso">congresso</label>
-        </div>
-        <div>
-          <input id="constituicao" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="constituicao">constituição</label>
-        </div>
-        <div>
-          <input id="contra" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="contra">contra</label>
-        </div>
-        <div>
-          <input id="correto" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="correto">correto</label>
-        </div>
-        <div>
-          <input id="criancas" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="criancas">crianças</label>
-        </div>
-        <div>
-          <input id="crime" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="crime">crime</label>
-        </div>
-        <div>
-          <input id="criminalizacao" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="criminalizacao">criminalização</label>
-        </div>
-        <div>
-          <input id="defender" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="defender">defender</label>
-        </div>
-        <div>
-          <input id="defesa" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="defesa">defesa</label>
-        </div>
-        <div>
-          <input id="deus" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="deus">deus</label>
-        </div>
-        <div>
-          <input id="direito" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="direito">direito</label>
-        </div>
-        <div>
-          <input id="direitos" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="direitos">direitos</label>
-        </div>
-        <div>
-          <input id="educacao" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="educacao">educação</label>
-        </div>
-        <div>
-          <input id="ensinar" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="ensinar">ensinar</label>
-        </div>
-        <div>
-          <input id="escola" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="escola">escola</label>
-        </div>
-        <div>
-          <input id="escolas" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="escolas">escolas</label>
-        </div>
-        <div>
-          <input id="especial" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="especial">especial</label>
-        </div>
-        <div>
-          <input id="esquerda" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="esquerda">esquerda</label>
-        </div>
-        <div>
-          <input id="estado" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="estado">estado</label>
-        </div>
-        <div>
-          <input id="exemplo" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="exemplo">exemplo</label>
-        </div>
-        <div>
-          <input id="familia" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="familia">familia</label>
-        </div>
-        <div>
-          <input id="familias" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="familias">familias</label>
-        </div>
-        <div>
-          <input id="federal" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="federal">federal</label>
-        </div>
-        <div>
-          <input id="feminista" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="feminista">feminista</label>
-        </div>
-        <div>
-          <input id="feministas" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="feministas">feministas</label>
-        </div>
-        <div>
-          <input id="frente" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="frente">frente</label>
-        </div>
-        <div>
-          <input id="gay" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="gay">gay</label>
-        </div>
-        <div>
-          <input id="gays" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="gays">gays</label>
-        </div>
-        <div>
-          <input id="genero" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="genero">genero</label>
-        </div>
-        <div>
-          <input id="governo" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="governo">governo</label>
-        </div>
-        <div>
-          <input id="hino" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="hino">hino</label>
-        </div>
-        <div>
-          <input id="historia" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="historia">historia</label>
-        </div>
-        <div>
-          <input id="homem" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="homem">homem</label>
-        </div>
-        <div>
-          <input id="homens" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="homens">homens</label>
-        </div>
-        <div>
-          <input id="homofobia" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="homofobia">homofobia</label>
-        </div>
-        <div>
-          <input id="humanos" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="humanos">humanos</label>
-        </div>
-        <div>
-          <input id="identidade" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="identidade">identidade</label>
-        </div>
-        <div>
-          <input id="ideologia" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="ideologia">ideologia</label>
-        </div>
-        <div>
-          <input id="importante" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="importante">importante</label>
-        </div>
-        <div>
-          <input id="imprensa" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="imprensa">imprensa</label>
-        </div>
-        <div>
-          <input id="internacional" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="internacional">internacional</label>
-        </div>
-        <div>
-          <input id="jovens" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="jovens">jovens</label>
-        </div>
-        <div>
-          <input id="lei" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="lei">lei</label>
-        </div>
-        <div>
-          <input id="liberdade" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="liberdade">liberdade</label>
-        </div>
-        <div>
-          <input id="lideres" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="lideres">lideres</label>
-        </div>
-        <div>
-          <input id="mae" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="mae">mae</label>
-        </div>
-        <div>
-          <input id="ministerio" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="ministerio">ministerio</label>
-        </div>
-        <div>
-          <input id="ministra" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="ministra">ministra</label>
-        </div>
-        <div>
-          <input id="ministro" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="ministro">ministro</label>
-        </div>
-        <div>
-          <input id="mulher" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="mulher">mulher</label>
-        </div>
-        <div>
-          <input id="mulheres" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="mulheres">mulheres</label>
-        </div>
-        <div>
-          <input id="mundo" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="mundo">mundo</label>
-        </div>
-        <div>
-          <input id="nacional" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="nacional">nacional</label>
-        </div>
-        <div>
-          <input id="pais-brasil" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="pais-brasil">país</label>
-        </div>
-        <div>
-          <input id="palavra" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="palavra">palavra</label>
-        </div>
-        <div>
-          <input id="parabens" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="parabens">parabéns</label>
-        </div>
-        <div>
-          <input id="partido" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="partido">partido</label>
-        </div>
-        <div>
-          <input id="pessoas" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="pessoas">pessoas</label>
-        </div>
-        <div>
-          <input id="politica" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="politica">política</label>
-        </div>
-        <div>
-          <input id="politicamente" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="politicamente">politicamente</label>
-        </div>
-        <div>
-          <input id="politicas" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="politicas">políticas</label>
-        </div>
-        <div>
-          <input id="politico" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="politico">político</label>
-        </div>
-        <div>
-          <input id="presidente" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="presidente">presidente</label>
-        </div>
-        <div>
-          <input id="projeto" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="projeto">projeto</label>
-        </div>
-        <div>
-          <input id="projeto" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="projeto">pública</label>
-        </div>
-        <div>
-          <input id="publico" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="publico">público</label>
-        </div>
-        <div>
-          <input id="questao" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="questao">questão</label>
-        </div>
-        <div>
-          <input id="sexo" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="sexo">sexo</label>
-        </div>
-        <div>
-          <input id="sexual" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="sexual">sexual</label>
-        </div>
-        <div>
-          <input id="sociedade" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="sociedade">sociedade</label>
-        </div>
-        <div>
-          <input id="stf" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="stf">STF</label>
-        </div>
-        <div>
-          <input id="suzano" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="suzano">Suzano</label>
-        </div>
-        <div>
-          <input id="tempo" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="tempo">tempo</label>
-        </div>
-        <div>
-          <input id="trabalho" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="trabalho">trabalho</label>
-        </div>
-        <div>
-          <input id="verdade" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="verdade">verdade</label>
-        </div>
-        <div>
-          <input id="vergonha" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="vergonha">vergonha</label>
-        </div>
-        <div>
-          <input id="video" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="video">vídeo</label>
-        </div>
-        <div>
-          <input id="violencia" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="violencia">violência</label>
-        </div>
-        <div>
-          <input id="vitimas" class="input-grafo" type="checkbox" checked=""><label class="label-grafo" for="vitimas">vítimas</label>
-        </div>
-
+    <div class="grafo-gn">
+      <div class="checkbox checkbox-primary">
+        <input id="checkbox-midia" class="input-grafo filter-categories" type="checkbox" checked="" data-value="yellow">
+        <label class="label-grafo" for="checkbox-midia">
+          Mídia
+        </label>
+      </div>
+      <div class="checkbox checkbox-secondary">
+        <input id="checkbox-religiao" class="input-grafo filter-categories" type="checkbox" checked="" data-value="red">
+        <label class="label-grafo" for="checkbox-religiao">
+          Religião
+        </label>
+        </div>
+      <div class="checkbox checkbox-tertiary">
+        <input id="checkbox-politica" class="input-grafo filter-categories" type="checkbox" checked="" data-value="blue">
+        <label class="label-grafo" for="checkbox-politica">
+          Política
+        </label>
       </div>
     </div>
-  </div>
 
-<!--
     <div class="grafo-gn grafo-gn-words w-100">
-        <div class="select-word">
-            <div class="grafo-word filter-word" data-value="aborto">aborto</div>
-            <div class="grafo-word filter-word" data-value="adolescentes">adolescentes</div>
-            <div class="grafo-word filter-word" data-value="alunos">alunos</div>
-            <div class="grafo-word filter-word" data-value="apoio">apoio</div>
-            <div class="grafo-word filter-word" data-value="arma">arma</div>
-            <div class="grafo-word filter-word" data-value="ataque">ataque</div>
-            <div class="grafo-word filter-word" data-value="aula">aula</div>
-            <div class="grafo-word filter-word" data-value="bolsonaro">bolsonaro</div>
-            <div class="grafo-word filter-word" data-value="bom">bom</div>
-            <div class="grafo-word filter-word" data-value="brasil">brasil</div>
-            <div class="grafo-word filter-word" data-value="brasileiros">brasileiros</div>
-            <div class="grafo-word filter-word" data-value="camara">camara</div>
-            <div class="grafo-word filter-word" data-value="carnaval">carnaval</div>
-            <div class="grafo-word filter-word" data-value="caso">caso</div>
-            <div class="grafo-word filter-word" data-value="congresso">congresso</div>
-            <div class="grafo-word filter-word" data-value="constituicao">constituicao</div>
-            <div class="grafo-word filter-word" data-value="contra">contra</div>
-            <div class="grafo-word filter-word" data-value="correto">correto</div>
-            <div class="grafo-word filter-word" data-value="criancas">crianças</div>
-            <div class="grafo-word filter-word" data-value="crime">crime</div>
-            <div class="grafo-word filter-word" data-value="criminalizacao">criminalização</div>
-            <div class="grafo-word filter-word" data-value="defender">defender</div>
-            <div class="grafo-word filter-word" data-value="defesa">defesa</div>
-            <div class="grafo-word filter-word" data-value="deus">deus</div>
-            <div class="grafo-word filter-word" data-value="direito">direito</div>
-            <div class="grafo-word filter-word" data-value="direitos">direitos</div>
-            <div class="grafo-word filter-word" data-value="educacao">educacao</div>
-            <div class="grafo-word filter-word" data-value="ensinar">ensinar</div>
-            <div class="grafo-word filter-word" data-value="escola">escola</div>
-            <div class="grafo-word filter-word" data-value="escolas">escolas</div>
-            <div class="grafo-word filter-word" data-value="especial">especial</div>
-            <div class="grafo-word filter-word" data-value="esquerda">esquerda</div>
-            <div class="grafo-word filter-word" data-value="estado">estado</div>
-            <div class="grafo-word filter-word" data-value="exemplo">exemplo</div>
-            <div class="grafo-word filter-word" data-value="familia">familia</div>
-            <div class="grafo-word filter-word" data-value="familias">familias</div>
-            <div class="grafo-word filter-word" data-value="favor">favor</div>
-            <div class="grafo-word filter-word" data-value="federal">federal</div>
-            <div class="grafo-word filter-word" data-value="feminista">feminista</div>
-            <div class="grafo-word filter-word" data-value="feministas">feministas</div>
-            <div class="grafo-word filter-word" data-value="frente">frente</div>
-            <div class="grafo-word filter-word" data-value="gay">gay</div>
-            <div class="grafo-word filter-word" data-value="gays">gays</div>
-            <div class="grafo-word filter-word" data-value="genero">genero</div>
-            <div class="grafo-word filter-word" data-value="governo">governo</div>
-            <div class="grafo-word filter-word" data-value="hino">hino</div>
-            <div class="grafo-word filter-word" data-value="historia">historia</div>
-            <div class="grafo-word filter-word" data-value="homem">homem</div>
-            <div class="grafo-word filter-word" data-value="homens">homens</div>
-            <div class="grafo-word filter-word" data-value="homofobia">homofobia</div>
-            <div class="grafo-word filter-word" data-value="humanos">humanos</div>
-            <div class="grafo-word filter-word" data-value="identidade">identidade</div>
-            <div class="grafo-word filter-word" data-value="ideologia">ideologia</div>
-            <div class="grafo-word filter-word" data-value="importante">importante</div>
-            <div class="grafo-word filter-word" data-value="imprensa">imprensa</div>
-            <div class="grafo-word filter-word" data-value="internacional">internacional</div>
-            <div class="grafo-word filter-word" data-value="jovens">jovens</div>
-            <div class="grafo-word filter-word" data-value="lei">lei</div>
-            <div class="grafo-word filter-word" data-value="liberdade">liberdade</div>
-            <div class="grafo-word filter-word" data-value="lideres">lideres</div>
-            <div class="grafo-word filter-word" data-value="mae">mae</div>
-            <div class="grafo-word filter-word" data-value="ministerio">ministerio</div>
-            <div class="grafo-word filter-word" data-value="ministra">ministra</div>
-            <div class="grafo-word filter-word" data-value="ministro">ministro</div>
-            <div class="grafo-word filter-word" data-value="mulher">mulher</div>
-            <div class="grafo-word filter-word" data-value="mulheres">mulheres</div>
-            <div class="grafo-word filter-word" data-value="mundo">mundo</div>
-            <div class="grafo-word filter-word" data-value="nacional">nacional</div>
-            <div class="grafo-word filter-word" data-value="pais-brasil">país</div>
-            <div class="grafo-word filter-word" data-value="palavra">palavra</div>
-            <div class="grafo-word filter-word" data-value="parabens">parabéns</div>
-            <div class="grafo-word filter-word" data-value="partido">partido</div>
-            <div class="grafo-word filter-word" data-value="pessoas">pessoas</div>
-            <div class="grafo-word filter-word" data-value="politica">política</div>
-            <div class="grafo-word filter-word" data-value="politicamente">politicamente</div>
-            <div class="grafo-word filter-word" data-value="politicas">políticas</div>
-            <div class="grafo-word filter-word" data-value="politico">político</div>
-            <div class="grafo-word filter-word" data-value="presidente">presidente</div>
-            <div class="grafo-word filter-word" data-value="projeto">projeto</div>
-            <div class="grafo-word filter-word" data-value="publica">pública</div>
-            <div class="grafo-word filter-word" data-value="publico">público</div>
-            <div class="grafo-word filter-word" data-value="questao">questão</div>
-            <div class="grafo-word filter-word" data-value="sexo">sexo</div>
-            <div class="grafo-word filter-word" data-value="sexual">sexual</div>
-            <div class="grafo-word filter-word" data-value="sociedade">sociedade</div>
-            <div class="grafo-word filter-word" data-value="stf">STF</div>
-            <div class="grafo-word filter-word" data-value="suzano">Suzano</div>
-            <div class="grafo-word filter-word" data-value="tempo">tempo</div>
-            <div class="grafo-word filter-word" data-value="trabalho">trabalho</div>
-            <div class="grafo-word filter-word" data-value="verdade">verdade</div>
-            <div class="grafo-word filter-word" data-value="vergonha">vergonha</div>
-            <div class="grafo-word filter-word" data-value="video">vídeo</div>
-            <div class="grafo-word filter-word" data-value="violencia">violência</div>
-            <div class="grafo-word filter-word" data-value="vitimas">vítimas</div>
+      <div class="select-word">
+        <div class="checkbox checkbox-words">
+          <div>
+            <input id="aborto" class="input-grafo filter-word" type="checkbox" checked="" data-value="aborto"><label class="label-grafo" for="aborto">aborto</label>
+          </div>
+          <div>
+            <input id="adolescentes" class="input-grafo filter-word" type="checkbox" checked="" data-value="adolescentes"><label class="label-grafo" for="adolescentes">adolescentes</label>
+          </div>
+          <div>
+            <input id="alunos" class="input-grafo filter-word" type="checkbox" checked="" data-value="alunos"><label class="label-grafo" for="alunos">alunos</label>
+          </div>
+          <div>
+            <input id="apoio" class="input-grafo filter-word" type="checkbox" checked="" data-value="apoio"><label class="label-grafo" for="apoio">apoio</label>
+          </div>
+          <div>
+            <input id="arma" class="input-grafo filter-word" type="checkbox" checked="" data-value="arma"><label class="label-grafo" for="arma">arma</label>
+          </div>
+          <div>
+            <input id="ataque" class="input-grafo filter-word" type="checkbox" checked="" data-value="ataque"><label class="label-grafo" for="ataque">ataque</label>
+          </div>
+          <div>
+            <input id="aula" class="input-grafo filter-word" type="checkbox" checked="" data-value="aula"><label class="label-grafo" for="aula">aula</label>
+          </div>
+          <div>
+            <input id="bolsonaro" class="input-grafo filter-word" type="checkbox" checked="" data-value="bolsonaro"><label class="label-grafo" for="bolsonaro">bolsonaro</label>
+          </div>
+          <div>
+            <input id="bom" class="input-grafo filter-word" type="checkbox" checked="" data-value="bom"><label class="label-grafo" for="bom">bom</label>
+          </div>
+          <div>
+            <input id="brasil" class="input-grafo filter-word" type="checkbox" checked="" data-value="brasil"><label class="label-grafo" for="brasil">brasil</label>
+          </div>
+          <div>
+            <input id="brasileiros" class="input-grafo filter-word" type="checkbox" checked="" data-value="brasileiros"><label class="label-grafo" for="brasileiros">brasileiros</label>
+          </div>
+          <div>
+            <input id="camara" class="input-grafo filter-word" type="checkbox" checked="" data-value="camara"><label class="label-grafo" for="camara">camara</label>
+          </div>
+          <div>
+            <input id="carnaval" class="input-grafo filter-word" type="checkbox" checked="" data-value="carnaval"><label class="label-grafo" for="carnaval">carnaval</label>
+          </div>
+          <div>
+            <input id="caso" class="input-grafo filter-word" type="checkbox" checked="" data-value="caso"><label class="label-grafo" for="caso">caso</label>
+          </div>
+          <div>
+            <input id="congresso" class="input-grafo filter-word" type="checkbox" checked="" data-value="congresso"><label class="label-grafo" for="congresso">congresso</label>
+          </div>
+          <div>
+            <input id="constituicao" class="input-grafo filter-word" type="checkbox" checked="" data-value="constituicao"><label class="label-grafo" for="constituicao">constituição</label>
+          </div>
+          <div>
+            <input id="contra" class="input-grafo filter-word" type="checkbox" checked="" data-value="contra"><label class="label-grafo" for="contra">contra</label>
+          </div>
+          <div>
+            <input id="correto" class="input-grafo filter-word" type="checkbox" checked="" data-value="correto"><label class="label-grafo" for="correto">correto</label>
+          </div>
+          <div>
+            <input id="criancas" class="input-grafo filter-word" type="checkbox" checked="" data-value="criancas"><label class="label-grafo" for="criancas">crianças</label>
+          </div>
+          <div>
+            <input id="crime" class="input-grafo filter-word" type="checkbox" checked="" data-value="crime"><label class="label-grafo" for="crime">crime</label>
+          </div>
+          <div>
+            <input id="criminalizacao" class="input-grafo filter-word" type="checkbox" checked="" data-value="criminalizacao"><label class="label-grafo" for="criminalizacao">criminalização</label>
+          </div>
+          <div>
+            <input id="defender" class="input-grafo filter-word" type="checkbox" checked="" data-value="defender"><label class="label-grafo" for="defender">defender</label>
+          </div>
+          <div>
+            <input id="defesa" class="input-grafo filter-word" type="checkbox" checked="" data-value="defesa"><label class="label-grafo" for="defesa">defesa</label>
+          </div>
+          <div>
+            <input id="deus" class="input-grafo filter-word" type="checkbox" checked="" data-value="deus"><label class="label-grafo" for="deus">deus</label>
+          </div>
+          <div>
+            <input id="direito" class="input-grafo filter-word" type="checkbox" checked="" data-value="direito"><label class="label-grafo" for="direito">direito</label>
+          </div>
+          <div>
+            <input id="direitos" class="input-grafo filter-word" type="checkbox" checked="" data-value="direitos"><label class="label-grafo" for="direitos">direitos</label>
+          </div>
+          <div>
+            <input id="educacao" class="input-grafo filter-word" type="checkbox" checked="" data-value="educacao"><label class="label-grafo" for="educacao">educação</label>
+          </div>
+          <div>
+            <input id="ensinar" class="input-grafo filter-word" type="checkbox" checked="" data-value="ensinar"><label class="label-grafo" for="ensinar">ensinar</label>
+          </div>
+          <div>
+            <input id="escola" class="input-grafo filter-word" type="checkbox" checked="" data-value="escola"><label class="label-grafo" for="escola">escola</label>
+          </div>
+          <div>
+            <input id="escolas" class="input-grafo filter-word" type="checkbox" checked="" data-value="escolas"><label class="label-grafo" for="escolas">escolas</label>
+          </div>
+          <div>
+            <input id="especial" class="input-grafo filter-word" type="checkbox" checked="" data-value="especial"><label class="label-grafo" for="especial">especial</label>
+          </div>
+          <div>
+            <input id="esquerda" class="input-grafo filter-word" type="checkbox" checked="" data-value="esquerda"><label class="label-grafo" for="esquerda">esquerda</label>
+          </div>
+          <div>
+            <input id="estado" class="input-grafo filter-word" type="checkbox" checked="" data-value="estado"><label class="label-grafo" for="estado">estado</label>
+          </div>
+          <div>
+            <input id="exemplo" class="input-grafo filter-word" type="checkbox" checked="" data-value="exemplo"><label class="label-grafo" for="exemplo">exemplo</label>
+          </div>
+          <div>
+            <input id="familia" class="input-grafo filter-word" type="checkbox" checked="" data-value="familia"><label class="label-grafo" for="familia">familia</label>
+          </div>
+          <div>
+            <input id="familias" class="input-grafo filter-word" type="checkbox" checked="" data-value="familias"><label class="label-grafo" for="familias">familias</label>
+          </div>
+          <div>
+            <input id="federal" class="input-grafo filter-word" type="checkbox" checked="" data-value="federal"><label class="label-grafo" for="federal">federal</label>
+          </div>
+          <div>
+            <input id="feminista" class="input-grafo filter-word" type="checkbox" checked="" data-value="feminista"><label class="label-grafo" for="feminista">feminista</label>
+          </div>
+          <div>
+            <input id="feministas" class="input-grafo filter-word" type="checkbox" checked="" data-value="feministas"><label class="label-grafo" for="feministas">feministas</label>
+          </div>
+          <div>
+            <input id="frente" class="input-grafo filter-word" type="checkbox" checked="" data-value="frente"><label class="label-grafo" for="frente">frente</label>
+          </div>
+          <div>
+            <input id="gay" class="input-grafo filter-word" type="checkbox" checked="" data-value="gay"><label class="label-grafo" for="gay">gay</label>
+          </div>
+          <div>
+            <input id="gays" class="input-grafo filter-word" type="checkbox" checked="" data-value="gays"><label class="label-grafo" for="gays">gays</label>
+          </div>
+          <div>
+            <input id="genero" class="input-grafo filter-word" type="checkbox" checked="" data-value="genero"><label class="label-grafo" for="genero">genero</label>
+          </div>
+          <div>
+            <input id="governo" class="input-grafo filter-word" type="checkbox" checked="" data-value="governo"><label class="label-grafo" for="governo">governo</label>
+          </div>
+          <div>
+            <input id="hino" class="input-grafo filter-word" type="checkbox" checked="" data-value="hino"><label class="label-grafo" for="hino">hino</label>
+          </div>
+          <div>
+            <input id="historia" class="input-grafo filter-word" type="checkbox" checked="" data-value="historia"><label class="label-grafo" for="historia">historia</label>
+          </div>
+          <div>
+            <input id="homem" class="input-grafo filter-word" type="checkbox" checked="" data-value="homem"><label class="label-grafo" for="homem">homem</label>
+          </div>
+          <div>
+            <input id="homens" class="input-grafo filter-word" type="checkbox" checked="" data-value="homens"><label class="label-grafo" for="homens">homens</label>
+          </div>
+          <div>
+            <input id="homofobia" class="input-grafo filter-word" type="checkbox" checked="" data-value="homofobia"><label class="label-grafo" for="homofobia">homofobia</label>
+          </div>
+          <div>
+            <input id="humanos" class="input-grafo filter-word" type="checkbox" checked="" data-value="humanos"><label class="label-grafo" for="humanos">humanos</label>
+          </div>
+          <div>
+            <input id="identidade" class="input-grafo filter-word" type="checkbox" checked="" data-value="identidade"><label class="label-grafo" for="identidade">identidade</label>
+          </div>
+          <div>
+            <input id="ideologia" class="input-grafo filter-word" type="checkbox" checked="" data-value="ideologia"><label class="label-grafo" for="ideologia">ideologia</label>
+          </div>
+          <div>
+            <input id="importante" class="input-grafo filter-word" type="checkbox" checked="" data-value="importante"><label class="label-grafo" for="importante">importante</label>
+          </div>
+          <div>
+            <input id="imprensa" class="input-grafo filter-word" type="checkbox" checked="" data-value="imprensa"><label class="label-grafo" for="imprensa">imprensa</label>
+          </div>
+          <div>
+            <input id="internacional" class="input-grafo filter-word" type="checkbox" checked="" data-value="internacional"><label class="label-grafo" for="internacional">internacional</label>
+          </div>
+          <div>
+            <input id="jovens" class="input-grafo filter-word" type="checkbox" checked="" data-value="jovens"><label class="label-grafo" for="jovens">jovens</label>
+          </div>
+          <div>
+            <input id="lei" class="input-grafo filter-word" type="checkbox" checked="" data-value="lei"><label class="label-grafo" for="lei">lei</label>
+          </div>
+          <div>
+            <input id="liberdade" class="input-grafo filter-word" type="checkbox" checked="" data-value="liberdade"><label class="label-grafo" for="liberdade">liberdade</label>
+          </div>
+          <div>
+            <input id="lideres" class="input-grafo filter-word" type="checkbox" checked="" data-value="lideres"><label class="label-grafo" for="lideres">lideres</label>
+          </div>
+          <div>
+            <input id="mae" class="input-grafo filter-word" type="checkbox" checked="" data-value="mae"><label class="label-grafo" for="mae">mae</label>
+          </div>
+          <div>
+            <input id="ministerio" class="input-grafo filter-word" type="checkbox" checked="" data-value="ministerio"><label class="label-grafo" for="ministerio">ministerio</label>
+          </div>
+          <div>
+            <input id="ministra" class="input-grafo filter-word" type="checkbox" checked="" data-value="ministra"><label class="label-grafo" for="ministra">ministra</label>
+          </div>
+          <div>
+            <input id="ministro" class="input-grafo filter-word" type="checkbox" checked="" data-value="ministro"><label class="label-grafo" for="ministro">ministro</label>
+          </div>
+          <div>
+            <input id="mulher" class="input-grafo filter-word" type="checkbox" checked="" data-value="mulher"><label class="label-grafo" for="mulher">mulher</label>
+          </div>
+          <div>
+            <input id="mulheres" class="input-grafo filter-word" type="checkbox" checked="" data-value="mulheres"><label class="label-grafo" for="mulheres">mulheres</label>
+          </div>
+          <div>
+            <input id="mundo" class="input-grafo filter-word" type="checkbox" checked="" data-value="mundo"><label class="label-grafo" for="mundo">mundo</label>
+          </div>
+          <div>
+            <input id="nacional" class="input-grafo filter-word" type="checkbox" checked="" data-value="nacional"><label class="label-grafo" for="nacional">nacional</label>
+          </div>
+          <div>
+            <input id="pais-brasil" class="input-grafo filter-word" type="checkbox" checked="" data-value="pais-brasil"><label class="label-grafo" for="pais-brasil">país</label>
+          </div>
+          <div>
+            <input id="palavra" class="input-grafo filter-word" type="checkbox" checked="" data-value="palavra"><label class="label-grafo" for="palavra">palavra</label>
+          </div>
+          <div>
+            <input id="parabens" class="input-grafo filter-word" type="checkbox" checked="" data-value="parabens"><label class="label-grafo" for="parabens">parabéns</label>
+          </div>
+          <div>
+            <input id="partido" class="input-grafo filter-word" type="checkbox" checked="" data-value="partido"><label class="label-grafo" for="partido">partido</label>
+          </div>
+          <div>
+            <input id="pessoas" class="input-grafo filter-word" type="checkbox" checked="" data-value="pessoas"><label class="label-grafo" for="pessoas">pessoas</label>
+          </div>
+          <div>
+            <input id="politica" class="input-grafo filter-word" type="checkbox" checked="" data-value="politica"><label class="label-grafo" for="politica">política</label>
+          </div>
+          <div>
+            <input id="politicamente" class="input-grafo filter-word" type="checkbox" checked="" data-value="politicamente"><label class="label-grafo" for="politicamente">politicamente</label>
+          </div>
+          <div>
+            <input id="politicas" class="input-grafo filter-word" type="checkbox" checked="" data-value="politicas"><label class="label-grafo" for="politicas">políticas</label>
+          </div>
+          <div>
+            <input id="politico" class="input-grafo filter-word" type="checkbox" checked="" data-value="politico"><label class="label-grafo" for="politico">político</label>
+          </div>
+          <div>
+            <input id="presidente" class="input-grafo filter-word" type="checkbox" checked="" data-value="presidente"><label class="label-grafo" for="presidente">presidente</label>
+          </div>
+          <div>
+            <input id="projeto" class="input-grafo filter-word" type="checkbox" checked="" data-value="projeto"><label class="label-grafo" for="projeto">projeto</label>
+          </div>
+          <div>
+            <input id="projeto" class="input-grafo filter-word" type="checkbox" checked="" data-value="publica"><label class="label-grafo" for="publica">pública</label>
+          </div>
+          <div>
+            <input id="publico" class="input-grafo filter-word" type="checkbox" checked="" data-value="publico"><label class="label-grafo" for="publico">público</label>
+          </div>
+          <div>
+            <input id="questao" class="input-grafo filter-word" type="checkbox" checked="" data-value="questao"><label class="label-grafo" for="questao">questão</label>
+          </div>
+          <div>
+            <input id="sexo" class="input-grafo filter-word" type="checkbox" checked="" data-value="sexo"><label class="label-grafo" for="sexo">sexo</label>
+          </div>
+          <div>
+            <input id="sexual" class="input-grafo filter-word" type="checkbox" checked="" data-value="sexual"><label class="label-grafo" for="sexual">sexual</label>
+          </div>
+          <div>
+            <input id="sociedade" class="input-grafo filter-word" type="checkbox" checked="" data-value="sociedade"><label class="label-grafo" for="sociedade">sociedade</label>
+          </div>
+          <div>
+            <input id="stf" class="input-grafo filter-word" type="checkbox" checked="" data-value="stf"><label class="label-grafo" for="stf">STF</label>
+          </div>
+          <div>
+            <input id="suzano" class="input-grafo filter-word" type="checkbox" checked="" data-value="suzano"><label class="label-grafo" for="suzano">Suzano</label>
+          </div>
+          <div>
+            <input id="tempo" class="input-grafo filter-word" type="checkbox" checked="" data-value="tempo"><label class="label-grafo" for="tempo">tempo</label>
+          </div>
+          <div>
+            <input id="trabalho" class="input-grafo filter-word" type="checkbox" checked="" data-value="trabalho"><label class="label-grafo" for="trabalho">trabalho</label>
+          </div>
+          <div>
+            <input id="verdade" class="input-grafo filter-word" type="checkbox" checked="" data-value="verdade"><label class="label-grafo" for="verdade">verdade</label>
+          </div>
+          <div>
+            <input id="vergonha" class="input-grafo filter-word" type="checkbox" checked="" data-value="vergonha"><label class="label-grafo" for="vergonha">vergonha</label>
+          </div>
+          <div>
+            <input id="video" class="input-grafo filter-word" type="checkbox" checked="" data-value="video"><label class="label-grafo" for="video">vídeo</label>
+          </div>
+          <div>
+            <input id="violencia" class="input-grafo filter-word" type="checkbox" checked="" data-value="violencia"><label class="label-grafo" for="violencia">violência</label>
+          </div>
+          <div>
+            <input id="vitimas" class="input-grafo filter-word" type="checkbox" checked="" data-value="vitimas"><label class="label-grafo" for="vitimas">vítimas</label>
+          </div>
+
         </div>
-    </div> -->
-</div>
-  </section>
+      </div>
+    </div>
+
+  <!--
+      <div class="grafo-gn grafo-gn-words w-100">
+          <div class="select-word">
+              <div class="grafo-word filter-word" data-value="aborto">aborto</div>
+              <div class="grafo-word filter-word" data-value="adolescentes">adolescentes</div>
+              <div class="grafo-word filter-word" data-value="alunos">alunos</div>
+              <div class="grafo-word filter-word" data-value="apoio">apoio</div>
+              <div class="grafo-word filter-word" data-value="arma">arma</div>
+              <div class="grafo-word filter-word" data-value="ataque">ataque</div>
+              <div class="grafo-word filter-word" data-value="aula">aula</div>
+              <div class="grafo-word filter-word" data-value="bolsonaro">bolsonaro</div>
+              <div class="grafo-word filter-word" data-value="bom">bom</div>
+              <div class="grafo-word filter-word" data-value="brasil">brasil</div>
+              <div class="grafo-word filter-word" data-value="brasileiros">brasileiros</div>
+              <div class="grafo-word filter-word" data-value="camara">camara</div>
+              <div class="grafo-word filter-word" data-value="carnaval">carnaval</div>
+              <div class="grafo-word filter-word" data-value="caso">caso</div>
+              <div class="grafo-word filter-word" data-value="congresso">congresso</div>
+              <div class="grafo-word filter-word" data-value="constituicao">constituicao</div>
+              <div class="grafo-word filter-word" data-value="contra">contra</div>
+              <div class="grafo-word filter-word" data-value="correto">correto</div>
+              <div class="grafo-word filter-word" data-value="criancas">crianças</div>
+              <div class="grafo-word filter-word" data-value="crime">crime</div>
+              <div class="grafo-word filter-word" data-value="criminalizacao">criminalização</div>
+              <div class="grafo-word filter-word" data-value="defender">defender</div>
+              <div class="grafo-word filter-word" data-value="defesa">defesa</div>
+              <div class="grafo-word filter-word" data-value="deus">deus</div>
+              <div class="grafo-word filter-word" data-value="direito">direito</div>
+              <div class="grafo-word filter-word" data-value="direitos">direitos</div>
+              <div class="grafo-word filter-word" data-value="educacao">educacao</div>
+              <div class="grafo-word filter-word" data-value="ensinar">ensinar</div>
+              <div class="grafo-word filter-word" data-value="escola">escola</div>
+              <div class="grafo-word filter-word" data-value="escolas">escolas</div>
+              <div class="grafo-word filter-word" data-value="especial">especial</div>
+              <div class="grafo-word filter-word" data-value="esquerda">esquerda</div>
+              <div class="grafo-word filter-word" data-value="estado">estado</div>
+              <div class="grafo-word filter-word" data-value="exemplo">exemplo</div>
+              <div class="grafo-word filter-word" data-value="familia">familia</div>
+              <div class="grafo-word filter-word" data-value="familias">familias</div>
+              <div class="grafo-word filter-word" data-value="favor">favor</div>
+              <div class="grafo-word filter-word" data-value="federal">federal</div>
+              <div class="grafo-word filter-word" data-value="feminista">feminista</div>
+              <div class="grafo-word filter-word" data-value="feministas">feministas</div>
+              <div class="grafo-word filter-word" data-value="frente">frente</div>
+              <div class="grafo-word filter-word" data-value="gay">gay</div>
+              <div class="grafo-word filter-word" data-value="gays">gays</div>
+              <div class="grafo-word filter-word" data-value="genero">genero</div>
+              <div class="grafo-word filter-word" data-value="governo">governo</div>
+              <div class="grafo-word filter-word" data-value="hino">hino</div>
+              <div class="grafo-word filter-word" data-value="historia">historia</div>
+              <div class="grafo-word filter-word" data-value="homem">homem</div>
+              <div class="grafo-word filter-word" data-value="homens">homens</div>
+              <div class="grafo-word filter-word" data-value="homofobia">homofobia</div>
+              <div class="grafo-word filter-word" data-value="humanos">humanos</div>
+              <div class="grafo-word filter-word" data-value="identidade">identidade</div>
+              <div class="grafo-word filter-word" data-value="ideologia">ideologia</div>
+              <div class="grafo-word filter-word" data-value="importante">importante</div>
+              <div class="grafo-word filter-word" data-value="imprensa">imprensa</div>
+              <div class="grafo-word filter-word" data-value="internacional">internacional</div>
+              <div class="grafo-word filter-word" data-value="jovens">jovens</div>
+              <div class="grafo-word filter-word" data-value="lei">lei</div>
+              <div class="grafo-word filter-word" data-value="liberdade">liberdade</div>
+              <div class="grafo-word filter-word" data-value="lideres">lideres</div>
+              <div class="grafo-word filter-word" data-value="mae">mae</div>
+              <div class="grafo-word filter-word" data-value="ministerio">ministerio</div>
+              <div class="grafo-word filter-word" data-value="ministra">ministra</div>
+              <div class="grafo-word filter-word" data-value="ministro">ministro</div>
+              <div class="grafo-word filter-word" data-value="mulher">mulher</div>
+              <div class="grafo-word filter-word" data-value="mulheres">mulheres</div>
+              <div class="grafo-word filter-word" data-value="mundo">mundo</div>
+              <div class="grafo-word filter-word" data-value="nacional">nacional</div>
+              <div class="grafo-word filter-word" data-value="pais-brasil">país</div>
+              <div class="grafo-word filter-word" data-value="palavra">palavra</div>
+              <div class="grafo-word filter-word" data-value="parabens">parabéns</div>
+              <div class="grafo-word filter-word" data-value="partido">partido</div>
+              <div class="grafo-word filter-word" data-value="pessoas">pessoas</div>
+              <div class="grafo-word filter-word" data-value="politica">política</div>
+              <div class="grafo-word filter-word" data-value="politicamente">politicamente</div>
+              <div class="grafo-word filter-word" data-value="politicas">políticas</div>
+              <div class="grafo-word filter-word" data-value="politico">político</div>
+              <div class="grafo-word filter-word" data-value="presidente">presidente</div>
+              <div class="grafo-word filter-word" data-value="projeto">projeto</div>
+              <div class="grafo-word filter-word" data-value="publica">pública</div>
+              <div class="grafo-word filter-word" data-value="publico">público</div>
+              <div class="grafo-word filter-word" data-value="questao">questão</div>
+              <div class="grafo-word filter-word" data-value="sexo">sexo</div>
+              <div class="grafo-word filter-word" data-value="sexual">sexual</div>
+              <div class="grafo-word filter-word" data-value="sociedade">sociedade</div>
+              <div class="grafo-word filter-word" data-value="stf">STF</div>
+              <div class="grafo-word filter-word" data-value="suzano">Suzano</div>
+              <div class="grafo-word filter-word" data-value="tempo">tempo</div>
+              <div class="grafo-word filter-word" data-value="trabalho">trabalho</div>
+              <div class="grafo-word filter-word" data-value="verdade">verdade</div>
+              <div class="grafo-word filter-word" data-value="vergonha">vergonha</div>
+              <div class="grafo-word filter-word" data-value="video">vídeo</div>
+              <div class="grafo-word filter-word" data-value="violencia">violência</div>
+              <div class="grafo-word filter-word" data-value="vitimas">vítimas</div>
+          </div>
+      </div> -->
+  </div>
+</section>
 
 <script>
     var i, s;
@@ -442,48 +443,57 @@ var blue = "rgb(0,49,61)",
     // Add a method to the graph model that returns an
     // object with every neighbors of a node inside:
     sigma.classes.graph.addMethod('neighbors', function(nodeId) {
-        var k,
-            neighbors = {},
-            index = this.allNeighborsIndex[nodeId] || {};
+      var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
 
-        for (k in index)
-            neighbors[k] = this.nodesIndex[k];
+      for (k in index)
+        neighbors[k] = this.nodesIndex[k];
 
-        return neighbors;
+      return neighbors;
     });
 
     // Instantiate sigma:
     s = new sigma({
-        graph: g,
-        renderer: {
-            // IMPORTANT:
-            // This works only with the canvas renderer, so the
-            // renderer type set as "canvas" is necessary here.
-            container: document.getElementById('graph-container'),
-            type: 'canvas',
-        },
-        settings: {
-            minNodeSize: 5,
-            maxNodeSize: 30,
-            minEdgeSize: 1,
-            maxEdgeSize: 1,
-            singleHover: true,
-            drawLabels: false,
-            drawEdgeLabels: false,
-            enableEdgeHovering: false,
-            enableHovering: false,
-            // scalingMode: "outside",
-        },
+      graph: g,
+      renderer: {
+        // IMPORTANT:
+        // This works only with the canvas renderer, so the
+        // renderer type set as "canvas" is necessary here.
+        container: document.getElementById('graph-container'),
+        type: 'canvas',
+      },
+      settings: {
+        minNodeSize: 5,
+        maxNodeSize: 30,
+        minEdgeSize: 1,
+        maxEdgeSize: 1,
+        singleHover: true,
+        drawLabels: false,
+        drawEdgeLabels: false,
+        enableEdgeHovering: false,
+        enableHovering: false,
+      },
     });
 
     // We first need to save the original colors of our
     // nodes and edges, like this:
-    s.graph.nodes().forEach(function(n) {
+    function saveOriginalColors() {
+      s.graph.nodes().forEach(function(n) {
         n.originalColor = n.color;
-    });
-    s.graph.edges().forEach(function(e) {
+      });
+      s.graph.edges().forEach(function(e) {
         e.originalColor = e.color;
-    });
+      });
+    };
+    saveOriginalColors();
+
+    function reiniciar() {
+      s.graph.clear();
+      s.graph.read(g);
+      saveOriginalColors();
+      s.refresh();
+    };
 
     // When a node is clicked, we check for each node
     // if it is a neighbor of the clicked one. If not,
@@ -492,30 +502,31 @@ var blue = "rgb(0,49,61)",
     // We do the same for the edges, and we only keep
     // edges that have both extremities colored.
     s.bind('clickNode', function(e) {
-        var nodeId = e.data.node.id,
-            toKeep = s.graph.neighbors(nodeId);
-        toKeep[nodeId] = e.data.node;
+      var nodeId = e.data.node.id,
+          toKeep = s.graph.neighbors(nodeId);
+      toKeep[nodeId] = e.data.node;
 
-        s.graph.nodes().forEach(function(n) {
-            if (toKeep[n.id])
-                n.color = n.originalColor;
-            else
-                n.color = '#cccccc';
-        });
+      s.graph.nodes().forEach(function(n) {
+        if (toKeep[n.id])
+          n.color = n.originalColor;
+        else
+          // n.color = '#cccccc';
+          s.graph.dropNode(n.id);
+      });
 
-        s.graph.edges().forEach(function(e) {
-            if (toKeep[e.source] && toKeep[e.target]) {
-                e.color = e.originalColor;
-                e.type = "arrow";
-            }
-            else
-                e.color = '#cccccc';
-        });
+      s.graph.edges().forEach(function(e) {
+        if (toKeep[e.source] && toKeep[e.target]) {
+          e.color = e.originalColor;
+          e.type = "arrow";
+        }
+        else
+          e.color = '#cccccc';
+      });
 
-        // Since the data has been modified, we need to
-        // call the refresh method to make the colors
-        // update effective.
-        s.refresh();
+      // Since the data has been modified, we need to
+      // call the refresh method to make the colors
+      // update effective.
+      s.refresh();
     });
 
     s.bind('overNode', function(e) {
@@ -544,44 +555,77 @@ var blue = "rgb(0,49,61)",
     // When the stage is clicked, we just color each
     // node and edge with its original color.
     s.bind('clickStage', function(e) {
-        s.graph.nodes().forEach(function(n) {
-            n.color = n.originalColor;
-        });
-
-        s.graph.edges().forEach(function(e) {
-            e.color = e.originalColor;
-            e.type = "dash";
-        });
-        // $("#aparecer").empty();
-
-        // Same as in the previous event:
-        s.refresh();
+      // s.graph.nodes().forEach(function(n) {
+      //   n.color = n.originalColor;
+      // });
+      // s.graph.edges().forEach(function(e) {
+      //   e.color = e.originalColor;
+      //   e.type = "dash";
+      // });
+      // // $("#aparecer").empty();
+      // // Same as in the previous event:
+      // s.refresh();
+      
+      reiniciar();
     });
 
     // filtro de palavras
     $(".filter-word").click(function () {
-        var posicao = $(this).data('value');
-        var ids = words[posicao];
-        s.graph.edges().forEach(function(e) {
-            e.color = '#cccccc';
-        });
-        s.graph.nodes().forEach(function(node) {
-            if ($.inArray(node.id, ids) > -1){
-                node.color = node.originalColor;
-            }
-            else
-                node.color = '#cccccc';
-        });
-        s.refresh();
+      if ($(this).hasClass('palavraSelecionada')) $(this).removeClass('palavraSelecionada');
+      else $(this).addClass('palavraSelecionada');
+      var posicao = "";
+      var ids = [];
+
+      $(".palavraSelecionada").each(function (index, palavra) {
+        posicao = $(palavra).data('value');
+        ids = ids.concat(words[posicao]);
+      });
+
+      s.graph.edges().forEach(function(e) {
+        e.color = '#cccccc';
+      });
+      s.graph.nodes().forEach(function(node) {
+        if ($.inArray(node.id, ids) > -1) {
+          node.color = node.originalColor;
+        }
+        else
+          node.color = '#cccccc';
+      });
+      s.refresh();
+    });
+
+    // filtro de palavras
+    $(".filter-categories").click(function () {
+      if ($(this).hasClass('categoriaSelecionada')) $(this).removeClass('categoriaSelecionada');
+      else $(this).addClass('categoriaSelecionada');
+      var posicao = "";
+      var ids = [];
+
+      $(".categoriaSelecionada").each(function (index, palavra) {
+        posicao = $(palavra).data('value');
+        ids = ids.concat(categories[posicao]);
+      });
+
+      s.graph.edges().forEach(function(e) {
+        e.color = '#cccccc';
+      });
+      s.graph.nodes().forEach(function(node) {
+        if ($.inArray(node.id, ids) > -1) {
+          node.color = node.originalColor;
+        }
+        else
+          node.color = '#cccccc';
+      });
+      s.refresh();
     });
 
     // Configure the noverlap layout:
     var noverlapListener = s.configNoverlap({
-        nodeMargin: 5,
-        scaleNodes: 1.2,
-        gridSize: 500,
+        nodeMargin: 200,
+        scaleNodes: 200,
+        gridSize: 2000,
         easing: 'quadraticInOut', // animation transition function
-        duration: 100   // animation duration. Long here for the purposes of this example only
+        duration: 1000000   // animation duration. Long here for the purposes of this example only
     });
     // Bind the events:
     noverlapListener.bind('start stop interpolate', function(e) {
