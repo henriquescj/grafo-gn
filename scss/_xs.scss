@@ -242,13 +242,13 @@ body {
 }
 
 .checkbox-primary input[type="checkbox"]:checked + label::before {
-  background-color: $yellow;
-  border-color: $yellow;
+  background-color: $red;
+  border-color: $red;
 }
 
 .checkbox-secondary input[type="checkbox"]:checked + label::before {
-  background-color: $red;
-  border-color: $red;
+  background-color: $yellow;
+  border-color: $yellow;
 }
 
 .checkbox-tertiary input[type="checkbox"]:checked + label::before {

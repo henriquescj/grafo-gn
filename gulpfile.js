@@ -23,7 +23,7 @@ gulp.task('js', function(){
       // 'node_modules/bootstrap/dist/js/bootstrap.min.js',
     ])
     .pipe(sourcemaps.init())
-    .pipe(concat('script.js'))
+    .pipe(concat('grafo-componentes.js'))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('js'))
 });
