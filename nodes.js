@@ -7,7 +7,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 37600,
-            "img":  "/img/Ailton-Benedito.jpg",
+            "img":  "img/Ailton-Benedito.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -17,7 +17,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 4085,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -27,7 +27,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 37600,
-            "img":  "/img/Alberto-Fraga.jpg",
+            "img":  "img/Alberto-Fraga.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -37,7 +37,7 @@ g = {
             "y": Math.random(),
             "color": red,
             "size": 166000,
-            "img":  "/img/Alexandre-Frota.jpg",
+            "img":  "img/Alexandre-Frota.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -47,7 +47,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 394000,
-            "img":  "/img/AlvaroDias-AlessandroDantasAgenciaSenado.jpg",
+            "img":  "img/AlvaroDias-AlessandroDantasAgenciaSenado.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -57,7 +57,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 298,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -67,7 +67,7 @@ g = {
             "y": Math.random(),
             "color": red,
             "size": 1055000,
-            "img":  "/img/AnaPaulaValadão-ReproducaoFacebook.png",
+            "img":  "img/AnaPaulaValadão-ReproducaoFacebook.png",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -77,7 +77,7 @@ g = {
             "y": Math.random(),
             "color":  blue,
             "size": 20802,
-            "img":  "/img/AndersonFerreira-ReproducaoFacebook.jpg",
+            "img":  "img/AndersonFerreira-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -87,7 +87,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 29100,
-            "img":  "/img/AndreCamara-ReproducaoFacebook.jpg",
+            "img":  "img/AndreCamara-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -97,7 +97,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 228000,
-            "img":  "/img/BernardoPiresKuster-ReproducaoFacebook.jpg",
+            "img":  "img/BernardoPiresKuster-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -107,7 +107,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 1190000,
-            "img":  "/img/CarlosBolsonaro-RenanOlazCMRJ.jpg",
+            "img":  "img/CarlosBolsonaro-RenanOlazCMRJ.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -117,7 +117,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 1567,
-            "img":  "/img/CarlosGomes-ReproducaoFacebook.jpg",
+            "img":  "img/CarlosGomes-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -127,7 +127,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 19900,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -137,7 +137,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 5902,
-            "img":  "/img/ClaudioDuarte-ReproducaoFacebook.jpg",
+            "img":  "img/ClaudioDuarte-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -147,7 +147,7 @@ g = {
             "y": Math.random(),
             "color":  blue,
             "size": 351000,
-            "img":  "/img/DamaresAlves-AlessandroDantasPTnaCamara.jpg",
+            "img":  "img/DamaresAlves-AlessandroDantasPTnaCamara.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -157,7 +157,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 3455,
-            "img":  "/img/DelegadoWaldir-FlickrDelegadoWaldir.jpg",
+            "img":  "img/DelegadoWaldir-FlickrDelegadoWaldir.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -167,7 +167,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 1480000,
-            "img":  "/img/EduardoBolsonaro-AlanSantosPR.jpg",
+            "img":  "img/EduardoBolsonaro-AlanSantosPR.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -177,7 +177,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 722,
-            "img":  "/img/ElienaiCamara-ReproducaoFacebook.jpg",
+            "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -187,7 +187,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 357000,
-            "img":  "/img/FernandoFranschini-ReproducaoFacebook.jpg",
+            "img":  "img/FernandoFranschini-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -197,7 +197,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 1300000,
-            "img":  "/img/FlavioBolsonaro-RodrigoVianaSenadoFederal.jpg",
+            "img":  "img/FlavioBolsonaro-RodrigoVianaSenadoFederal.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -207,7 +207,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 4616,
-            "img":  "/img/FranciscoJunior-ReproducaoFacebook.jpg",
+            "img":  "img/FranciscoJunior-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -217,7 +217,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 141000,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -227,7 +227,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 87,
-            "img":  "/img/HeberCamara-ReproducaoInstagram.png",
+            "img":  "img/HeberCamara-ReproducaoInstagram.png",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -237,7 +237,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 54,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -247,7 +247,7 @@ g = {
             "y": Math.random(),
             "color":   blue,
             "size": 13400,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -257,7 +257,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 4350000,
-            "img":  "/img/JairBolsonaro-MarcosCorreaPR.jpg",
+            "img":  "img/JairBolsonaro-MarcosCorreaPR.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -267,7 +267,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 2914,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -277,7 +277,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 7912,
-            "img":  "/img/JoaoCampos-PabloValadaresCamaradosDeputados.jpg",
+            "img":  "img/JoaoCampos-PabloValadaresCamaradosDeputados.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -287,7 +287,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 75,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -297,7 +297,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 341000,
-            "img":  "/img/JoiceHasselmann-NajaraAraujoCamaradosDeputados.jpg",
+            "img":  "img/JoiceHasselmann-NajaraAraujoCamaradosDeputados.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -307,7 +307,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 77800,
-            "img":  "/img/JorgeLinhares-ReproducaoFacebook.jpg",
+            "img":  "img/JorgeLinhares-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -317,7 +317,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 41900,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -327,7 +327,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 78500,
-            "img":  "/img/JosueGoncalves-ReproducaoFacebook.jpg",
+            "img":  "img/JosueGoncalves-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -337,7 +337,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 18500,
-            "img":  "/img/JuanribePagliarin-ReproducaoFacebook.jpg",
+            "img":  "img/JuanribePagliarin-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -347,7 +347,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 818,
-            "img":  "/img/JulioCesarRibeiro-CleiaVianaCamaradosDeputados.jpg",
+            "img":  "img/JulioCesarRibeiro-CleiaVianaCamaradosDeputados.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -357,7 +357,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 248000,
-            "img":  "/img/LeandroRuschel-ReproducaoYoutube.jpg",
+            "img":  "img/LeandroRuschel-ReproducaoYoutube.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -367,7 +367,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 2109,
-            "img":  "/img/LizianeBayer-AssembleiaLegislativadoRioGrandedoSUL.jpg",
+            "img":  "img/LizianeBayer-AssembleiaLegislativadoRioGrandedoSUL.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -377,7 +377,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 1515,
-            "img":  "/img/LuanaCamara-ReproducaoFacebook.jpg",
+            "img":  "img/LuanaCamara-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -387,7 +387,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 41400,
-            "img":  "/img/LuciaRodovalho-ReproducaoFacebook.jpg",
+            "img":  "img/LuciaRodovalho-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -397,7 +397,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 77300,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -407,7 +407,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 256000,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -417,7 +417,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 702000,
-            "img":  "/img/MagnoMalta-WaldemirBarretoAgenciaSenado.jpg",
+            "img":  "img/MagnoMalta-WaldemirBarretoAgenciaSenado.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -427,7 +427,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 161000,
-            "img":  "/img/MajorOlimpio-JeffersonRudyAgenciaSenado.jpg",
+            "img":  "img/MajorOlimpio-JeffersonRudyAgenciaSenado.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -437,7 +437,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 47300,
-            "img":  "/img/MajorVitorHugo-MarcosCorreaPR.jpg",
+            "img":  "img/MajorVitorHugo-MarcosCorreaPR.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -447,7 +447,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 25000,
-            "img":  "/img/MarcelAlexandre-CamaraMunicipaldeManaus.jpg",
+            "img":  "img/MarcelAlexandre-CamaraMunicipaldeManaus.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -457,7 +457,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 8929,
-            "img":  "/img/MarcioValadao-Lagoinha.jpg",
+            "img":  "img/MarcioValadao-Lagoinha.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -467,7 +467,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 554000,
-            "img":  "/img/MarcoFeliciano-Podemos.jpg",
+            "img":  "img/MarcoFeliciano-Podemos.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -477,7 +477,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 2768,
-            "img":  "/img/MarcosRogerio-JanedeAraujoAgenciaSenado.jpg",
+            "img":  "img/MarcosRogerio-JanedeAraujoAgenciaSenado.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -487,7 +487,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 1323,
-            "img":  "/img/MeciasdeJesus-WaldemirBarretoAgenciaSenado.jpg",
+            "img":  "img/MeciasdeJesus-WaldemirBarretoAgenciaSenado.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -497,7 +497,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 632,
-            "img":  "/img/MicheleCollins-ReproducaoSiteMicheleCollins.jpg",
+            "img":  "img/MicheleCollins-ReproducaoSiteMicheleCollins.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -507,7 +507,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 7165,
-            "img":  "/img/NaianeCamara-ReproducaoFacebook.jpg",
+            "img":  "img/NaianeCamara-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -517,7 +517,7 @@ g = {
             "y": Math.random(),
             "color": red,
             "size": 623000,
-            "img":  "/img/OlavodeCarvalho-FotoStelaCaymmiReproducaoFacebook.jpg",
+            "img":  "img/OlavodeCarvalho-FotoStelaCaymmiReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -527,7 +527,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 361000,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -537,7 +537,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 6371,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -547,7 +547,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 3961,
-            "img":  "/img/PastorEstevamFernandes-ReproducaoYoutube.jpg",
+            "img":  "img/PastorEstevamFernandes-ReproducaoYoutube.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -557,7 +557,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 156,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -567,7 +567,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 2,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -577,7 +577,7 @@ g = {
             "y": Math.random(),
             "color": red,
             "size": 2105,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -587,7 +587,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 521,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -597,7 +597,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 177,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -607,7 +607,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 188,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -617,7 +617,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 4043,
-            "img":  "/img/PastorSergioQueiroz-ReproducaoYoutubeTVCorreio.jpg",
+            "img":  "img/PastorSergioQueiroz-ReproducaoYoutubeTVCorreio.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -627,7 +627,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 161000,
-            "img":  "/img/PauloMartins-LuisMacedoCamaradosDeputados.jpg",
+            "img":  "img/PauloMartins-LuisMacedoCamaradosDeputados.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -637,7 +637,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 14200,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -647,7 +647,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 1448,
-            "img":  "/img/PlatinySoares-ReproducaoFacebook.jpg",
+            "img":  "img/PlatinySoares-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -657,7 +657,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 9359,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -667,7 +667,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 8847,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -677,7 +677,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 131,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -687,7 +687,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 16400,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -697,7 +697,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 543000,
-            "img":  "/img/RobsonRodovalho-ReproducaoFacebook.jpg",
+            "img":  "img/RobsonRodovalho-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -707,7 +707,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 199000,
-            "img":  "/img/RodrigoConstantino-ReproducaoFacebook.jpg",
+            "img":  "img/RodrigoConstantino-ReproducaoFacebook.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -717,7 +717,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 429000,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -727,7 +727,7 @@ g = {
             "y": Math.random(),
             "color": yellow,
             "size": 32000,
-            "img":  "/img/SilasCamara-DouglasGomesPRBLideranca.jpg",
+            "img":  "img/SilasCamara-DouglasGomesPRBLideranca.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -737,7 +737,7 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 1400000,
-            "img":  "/img/SilasMalafaia-FotoMarcosCorreaPR.jpg",
+            "img":  "img/SilasMalafaia-FotoMarcosCorreaPR.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -747,7 +747,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 34400,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -757,7 +757,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 116,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -767,7 +767,7 @@ g = {
             "y": Math.random(),
             "color":  red,
             "size": 311,
-            "img":  "/img/TulioFerreira-ReproducaoInstagram.jpg",
+            "img":  "img/TulioFerreira-ReproducaoInstagram.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
         {
@@ -777,7 +777,7 @@ g = {
             "y": Math.random(),
             "color": blue,
             "size": 96,
-            "img":  "/img/perfil-um.jpg",
+            "img":  "img/perfil-um.jpg",
             "link": "http://dev.rckt.com.br/ucc/"
         },
     ],
