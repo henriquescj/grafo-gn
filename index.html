@@ -343,20 +343,23 @@ var blue = "rgb(0,49,61)",
 </section>
 
 <script>
-    var i, s;
+    var i, s, permitidedIdsCategories, permitidedIdsWords;
 
-    // inicializa os IDs permitidos pelas categories
-    var permitidedIdsCategories = [];
-    $(".categoriaSelecionada").each(function (index, palavra) {
-      posicao = $(palavra).data('value');
-      permitidedIdsCategories = permitidedIdsCategories.concat(categories[posicao]);
-    });
-    // inicializa os IDs permitidos pelas words
-    var permitidedIdsWords = [];
-    $(".palavraSelecionada").each(function (index, palavra) {
-      posicao = $(palavra).data('value');
-      permitidedIdsWords = permitidedIdsWords.concat(words[posicao]);
-    });
+    function initializePermitedIds() {
+      // inicializa os IDs permitidos pelas categories
+      permitidedIdsCategories = [];
+      $(".categoriaSelecionada").each(function (index, palavra) {
+        posicao = $(palavra).data('value');
+        permitidedIdsCategories = permitidedIdsCategories.concat(categories[posicao]);
+      });
+      // inicializa os IDs permitidos pelas words
+      permitidedIdsWords = [];
+      $(".palavraSelecionada").each(function (index, palavra) {
+        posicao = $(palavra).data('value');
+        permitidedIdsWords = permitidedIdsWords.concat(words[posicao]);
+      });
+    }
+    initializePermitedIds();
 
     // Add a method to the graph model that returns an
     // object with every neighbors of a node inside:
@@ -409,20 +412,12 @@ var blue = "rgb(0,49,61)",
     function reiniciar() {
       s.graph.clear();
       s.graph.read(g);
-      // inicializa os IDs permitidos pelas categories
-      var permitidedIdsCategories = [];
-      $(".categoriaSelecionada").each(function (index, palavra) {
-        posicao = $(palavra).data('value');
-        permitidedIdsCategories = permitidedIdsCategories.concat(categories[posicao]);
-      });
-      // inicializa os IDs permitidos pelas words
-      var permitidedIdsWords = [];
-      $(".palavraSelecionada").each(function (index, palavra) {
-        posicao = $(palavra).data('value');
-        permitidedIdsWords = permitidedIdsWords.concat(words[posicao]);
-      });
-      saveOriginalColors();
       s.refresh();
+      saveOriginalColors();
+      // falta a parte de apagar os dados do filtro de palavras
+      $(".filter-categories").prop("checked", true).addClass("categoriaSelecionada");
+      $(".filter-word").prop("checked", false).removeClass("palavraSelecionada");
+      initializePermitedIds();
     };
 
     // When a node is clicked, we check for each node
@@ -489,9 +484,6 @@ var blue = "rgb(0,49,61)",
     // });
 
     $("#limpar-selecao").click(function() {
-      // falta a parte de apagar os dados do filtro de palavras
-      $(".filter-categories").prop("checked", true).addClass("categoriaSelecionada");
-      $(".filter-word").prop("checked", false).removeClass("palavraSelecionada");
       reiniciar();
     });
 
