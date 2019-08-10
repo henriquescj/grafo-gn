@@ -5,19 +5,7 @@
 <script src="js/grafo-componentes.js"></script>
 <!-- END SIGMA IMPORTS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<script>
-// declarao de algumas variaveis necessarias
-var blue = "rgb(0,49,61)",
-    red = "rgb(112,0,13)",
-    yellow = "rgb(203,154,0)",
-    g;
-</script>
 <!--  -->
-<script src="nodes.js"></script>
-<script src="edges.js"></script>
-<script src="words.js"></script>
-<script src="categories.js"></script>
 <section class="d-lg-flex">
   <div class="grafo-gn grafo-gn-canvas mx-4">
       <style>
@@ -343,6 +331,17 @@ var blue = "rgb(0,49,61)",
 </section>
 
 <script>
+  // declaracao de algumas variaveis necessarias
+  var blue = "rgb(0,49,61)",
+      red = "rgb(112,0,13)",
+      yellow = "rgb(203,154,0)",
+      g;
+</script>
+<script src="nodes.js"></script>
+<script src="edges.js"></script>
+<script src="words.js"></script>
+<script src="categories.js"></script>
+<script>
     var i, s, permitidedIdsCategories, permitidedIdsWords;
 
     function initializePermitedIds() {
@@ -393,11 +392,6 @@ var blue = "rgb(0,49,61)",
         enableEdgeHovering: false,
         enableHovering: false,
       },
-    });
-
-    s.graph.edges().forEach(function (e) {
-      if (e.source == "alexandre-frota" || e.target == "alexandre-frota")
-      console.log(e.source, e.target);
     });
     
     // We first need to save the original colors of our
@@ -471,11 +465,9 @@ var blue = "rgb(0,49,61)",
       novaDiv +='</div>';
 
       $("#aparecer").html(novaDiv);
-      // setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
     });
 
     s.bind('outNode', function (e) {
-      // $("#aparecer").empty();
       setTimeout(function(){ $("#aparecer").empty(); }, 3000);
     });
 
@@ -541,20 +533,20 @@ var blue = "rgb(0,49,61)",
 
     // Configure the noverlap layout:
     var noverlapListener = s.configNoverlap({
-        nodeMargin: 200,
-        scaleNodes: 200,
-        gridSize: 2000,
-        easing: 'quadraticInOut', // animation transition function
-        duration: 1000000   // animation duration. Long here for the purposes of this example only
+      nodeMargin: 200,
+      scaleNodes: 200,
+      gridSize: 2000,
+      easing: 'quadraticInOut', // animation transition function
+      duration: 1000000   // animation duration. Long here for the purposes of this example only
     });
     // Bind the events:
     noverlapListener.bind('start stop interpolate', function(e) {
-        console.log(e.type);
-        if(e.type === 'start') {
-            console.time('noverlap');
-        }
-        if(e.type === 'interpolate') {
-            console.timeEnd('noverlap');
-        }
+      console.log(e.type);
+      if(e.type === 'start') {
+        console.time('noverlap');
+      }
+      if(e.type === 'interpolate') {
+        console.timeEnd('noverlap');
+      }
     });
 </script>
