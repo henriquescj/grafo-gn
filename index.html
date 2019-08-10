@@ -367,10 +367,8 @@ var blue = "rgb(0,49,61)",
       var k,
         neighbors = {},
         index = this.allNeighborsIndex[nodeId] || {};
-
       for (k in index)
         neighbors[k] = this.nodesIndex[k];
-
       return neighbors;
     });
 
@@ -397,6 +395,11 @@ var blue = "rgb(0,49,61)",
       },
     });
 
+    s.graph.edges().forEach(function (e) {
+      if (e.source == "alexandre-frota" || e.target == "alexandre-frota")
+      console.log(e.source, e.target);
+    });
+    
     // We first need to save the original colors of our
     // nodes and edges, like this:
     function saveOriginalColors() {
@@ -414,7 +417,6 @@ var blue = "rgb(0,49,61)",
       s.graph.read(g);
       s.refresh();
       saveOriginalColors();
-      // falta a parte de apagar os dados do filtro de palavras
       $(".filter-categories").prop("checked", true).addClass("categoriaSelecionada");
       $(".filter-word").prop("checked", false).removeClass("palavraSelecionada");
       initializePermitedIds();
@@ -426,21 +428,21 @@ var blue = "rgb(0,49,61)",
     // original color.
     // We do the same for the edges, and we only keep
     // edges that have both extremities colored.
-    s.bind('clickNode', function(e) {
-      var nodeId = e.data.node.id,
+    s.bind('clickNode', function(clickedNode) {
+      var nodeId = clickedNode.data.node.id,
           toKeep = s.graph.neighbors(nodeId);
-      toKeep[nodeId] = e.data.node;
+      toKeep[nodeId] = clickedNode.data.node;
 
       s.graph.nodes().forEach(function(n) {
         if (toKeep[n.id])
           n.color = n.originalColor;
         else
           n.color = 'rgba(0,49,61,0)';
-          // s.graph.dropNode(n.id);
       });
 
       s.graph.edges().forEach(function(e) {
-        if (toKeep[e.source] && toKeep[e.target]) {
+        // if (toKeep[e.source] && toKeep[e.target]) {
+        if (e.source == nodeId || e.target == nodeId) {
           e.color = e.originalColor;
           e.type = "arrow";
         }
