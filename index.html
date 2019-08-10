@@ -29,23 +29,27 @@ var blue = "rgb(0,49,61)",
 
     <div class="grafo-gn">
       <div class="checkbox checkbox-primary">
-        <input id="checkbox-midia" class="input-grafo filter-categories" type="checkbox" checked data-value="red">
+        <input id="checkbox-midia" class="input-grafo filter-categories categoriaSelecionada" type="checkbox" checked data-value="red">
         <label class="label-grafo" for="checkbox-midia">
           Mídia
         </label>
       </div>
       <div class="checkbox checkbox-secondary">
-        <input id="checkbox-religiao" class="input-grafo filter-categories" type="checkbox" checked data-value="yellow">
+        <input id="checkbox-religiao" class="input-grafo filter-categories categoriaSelecionada" type="checkbox" checked data-value="yellow">
         <label class="label-grafo" for="checkbox-religiao">
           Religião
         </label>
         </div>
       <div class="checkbox checkbox-tertiary">
-        <input id="checkbox-politica" class="input-grafo filter-categories" type="checkbox" checked data-value="blue">
+        <input id="checkbox-politica" class="input-grafo filter-categories categoriaSelecionada" type="checkbox" checked data-value="blue">
         <label class="label-grafo" for="checkbox-politica">
           Política
         </label>
       </div>
+    </div>
+
+    <div>
+      <button id="limpar-selecao">limpar seleção</button>
     </div>
 
     <div class="grafo-gn grafo-gn-words w-100">
@@ -341,6 +345,19 @@ var blue = "rgb(0,49,61)",
 <script>
     var i, s;
 
+    // inicializa os IDs permitidos pelas categories
+    var permitidedIdsCategories = [];
+    $(".categoriaSelecionada").each(function (index, palavra) {
+      posicao = $(palavra).data('value');
+      permitidedIdsCategories = permitidedIdsCategories.concat(categories[posicao]);
+    });
+    // inicializa os IDs permitidos pelas words
+    var permitidedIdsWords = [];
+    $(".palavraSelecionada").each(function (index, palavra) {
+      posicao = $(palavra).data('value');
+      permitidedIdsWords = permitidedIdsWords.concat(words[posicao]);
+    });
+
     // Add a method to the graph model that returns an
     // object with every neighbors of a node inside:
     sigma.classes.graph.addMethod('neighbors', function(nodeId) {
@@ -392,6 +409,18 @@ var blue = "rgb(0,49,61)",
     function reiniciar() {
       s.graph.clear();
       s.graph.read(g);
+      // inicializa os IDs permitidos pelas categories
+      var permitidedIdsCategories = [];
+      $(".categoriaSelecionada").each(function (index, palavra) {
+        posicao = $(palavra).data('value');
+        permitidedIdsCategories = permitidedIdsCategories.concat(categories[posicao]);
+      });
+      // inicializa os IDs permitidos pelas words
+      var permitidedIdsWords = [];
+      $(".palavraSelecionada").each(function (index, palavra) {
+        posicao = $(palavra).data('value');
+        permitidedIdsWords = permitidedIdsWords.concat(words[posicao]);
+      });
       saveOriginalColors();
       s.refresh();
     };
@@ -431,62 +460,58 @@ var blue = "rgb(0,49,61)",
     });
 
     s.bind('overNode', function(e) {
-        var y = e.data.node["renderer1:y"] - 65;
-        var x = e.data.node["renderer1:x"] + 25;
-        var novaDiv = "";
+      var y = e.data.node["renderer1:y"] - 65;
+      var x = e.data.node["renderer1:x"] + 25;
+      var novaDiv = "";
 
-        novaDiv +='<div class="box-infos" style="position: absolute; top:' + y + 'px; left: ' + x + 'px;">';
-          novaDiv +='<div class="talk-bubble tri-right btm-left">';
-            novaDiv +='<div class="talktext d-flex">';
-              novaDiv +='<img class="img-perfil bg-img" src=" ' + e.data.node.img + ' " alt=" ' + e.data.node.label + ' ">';
-              novaDiv +='<a class="link-perfil" href=" ' + e.data.node.link + ' " target="_blank"><p class="ml-2"> '+ e.data.node.label +' </p></a>';
-            novaDiv +='</div>';
+      novaDiv +='<div class="box-infos" style="position: absolute; top:' + y + 'px; left: ' + x + 'px;">';
+        novaDiv +='<div class="talk-bubble tri-right btm-left">';
+          novaDiv +='<div class="talktext d-flex">';
+            novaDiv +='<img class="img-perfil bg-img" src=" ' + e.data.node.img + ' " alt=" ' + e.data.node.label + ' ">';
+            novaDiv +='<a class="link-perfil" href=" ' + e.data.node.link + ' " target="_blank"><p class="ml-2"> '+ e.data.node.label +' </p></a>';
           novaDiv +='</div>';
         novaDiv +='</div>';
+      novaDiv +='</div>';
 
-        $("#aparecer").html(novaDiv);
-        // setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
+      $("#aparecer").html(novaDiv);
+      // setTimeout(function(){ $("#aparecer").html(novaDiv); }, 200);
     });
 
     s.bind('outNode', function (e) {
-        // $("#aparecer").empty();
-        setTimeout(function(){ $("#aparecer").empty(); }, 3000);
+      // $("#aparecer").empty();
+      setTimeout(function(){ $("#aparecer").empty(); }, 3000);
     });
 
     // When the stage is clicked, we just color each
     // node and edge with its original color.
-    s.bind('clickStage', function(e) {
-      // s.graph.nodes().forEach(function(n) {
-      //   n.color = n.originalColor;
-      // });
-      // s.graph.edges().forEach(function(e) {
-      //   e.color = e.originalColor;
-      //   e.type = "dash";
-      // });
-      // // $("#aparecer").empty();
-      // // Same as in the previous event:
-      // s.refresh();
+    // s.bind('clickStage', function(e) {
+    //   reiniciar();
+    // });
 
+    $("#limpar-selecao").click(function() {
+      // falta a parte de apagar os dados do filtro de palavras
+      $(".filter-categories").prop("checked", true).addClass("categoriaSelecionada");
+      $(".filter-word").prop("checked", false).removeClass("palavraSelecionada");
       reiniciar();
     });
 
-    // filtro de palavras
-    $(".filter-word").click(function () {
-      if ($(this).hasClass('palavraSelecionada')) $(this).removeClass('palavraSelecionada');
-      else $(this).addClass('palavraSelecionada');
+    // filtro de categorias
+    $(".filter-categories").click(function () {
+      if ($(this).hasClass('categoriaSelecionada')) $(this).removeClass('categoriaSelecionada');
+      else $(this).addClass('categoriaSelecionada');
       var posicao = "";
-      var ids = [];
+      permitidedIdsCategories = [];
 
-      $(".palavraSelecionada").each(function (index, palavra) {
+      $(".categoriaSelecionada").each(function (index, palavra) {
         posicao = $(palavra).data('value');
-        ids = ids.concat(words[posicao]);
+        permitidedIdsCategories = permitidedIdsCategories.concat(categories[posicao]);
       });
 
       s.graph.edges().forEach(function(e) {
         e.color = '#cccccc';
       });
       s.graph.nodes().forEach(function(node) {
-        if ($.inArray(node.id, ids) > -1) {
+        if (($.inArray(node.id, permitidedIdsWords) > -1 || !permitidedIdsWords.length) && $.inArray(node.id, permitidedIdsCategories) > -1) {
           node.color = node.originalColor;
         }
         else
@@ -495,23 +520,23 @@ var blue = "rgb(0,49,61)",
       s.refresh();
     });
 
-    // filtro de categorias
-    $(".filter-categories").click(function () {
-      if ($(this).hasClass('categoriaSelecionada')) $(this).removeClass('categoriaSelecionada');
-      else $(this).addClass('categoriaSelecionada');
+    // filtro de palavras
+    $(".filter-word").click(function () {
+      if ($(this).hasClass('palavraSelecionada')) $(this).removeClass('palavraSelecionada');
+      else $(this).addClass('palavraSelecionada');
       var posicao = "";
-      var ids = [];
+      permitidedIdsWords = [];
 
-      $(".categoriaSelecionada").each(function (index, palavra) {
+      $(".palavraSelecionada").each(function (index, palavra) {
         posicao = $(palavra).data('value');
-        ids = ids.concat(categories[posicao]);
+        permitidedIdsWords = permitidedIdsWords.concat(words[posicao]);
       });
 
       s.graph.edges().forEach(function(e) {
         e.color = '#cccccc';
       });
       s.graph.nodes().forEach(function(node) {
-        if ($.inArray(node.id, ids) > -1) {
+        if ($.inArray(node.id, permitidedIdsWords) > -1 && $.inArray(node.id, permitidedIdsCategories) > -1) {
           node.color = node.originalColor;
         }
         else
