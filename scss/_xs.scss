@@ -9,28 +9,37 @@ body {
 #graph-container {
     width: 100%;
     height: 400px;
-    background-color: #f9f9f9;
+    // background-color: $grey;
 }
 
 .grafo-gn {
-  margin-top: 50px;
+  margin-top: 40px;
   // display: flex;
   }
   h1 {
     font-size: 2.85em; // 40px
-    text-align: center;
   }
   h2 {
-    font-size: 2.85em; // 40px
-    text-decoration: underline;
-    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
   }
   p {
+    font-size: 16px;
     line-height: 1em;
   }
   a:link, a:hover, a:visited {
     color: inherit;
     text-decoration: none;
+  }
+
+  .btn-grafo {
+    background-color: black;
+    color: white;
+    border: 0px;
+    padding: 4px;
+    &:hover {
+      opacity: 0.8;
+    }
   }
 
   /* CSS talk bubble */
@@ -46,7 +55,7 @@ body {
     font-size: 14px;
   }
   .border{
-    border: 1px solid #666;
+    border: 1px solid $grey;
   }
 
   /*Right triangle, placed bottom left side slightly in*/
@@ -55,12 +64,12 @@ body {
   	position: absolute;
   	width: 0;
   	height: 0;
-  	left: -8px;
+  	left: -1px;
     right: auto;
     top: auto;
-  	bottom: -40px;
-  	border: 32px solid;
-  	border-color: transparent transparent transparent #666;
+  	bottom: -21px;
+  	border: 21px solid;
+  	border-color: transparent transparent transparent $grey;
   }
   .tri-right.btm-left:after{
   	content: ' ';
@@ -70,8 +79,8 @@ body {
   	left: 0px;
     right: auto;
     top: auto;
-  	bottom: -20px;
-  	border: 22px solid;
+  	bottom: -19px;
+  	border: 21px solid;
   	border-color: transparent transparent transparent white;
   }
 
@@ -110,10 +119,10 @@ body {
 
   .select-word {
     overflow-y: auto;
-    max-height: 400px;
+    max-height: 330px;
     width: 100%;
-    border: 1px solid $dark-grey;
-    color: $dark;
+    border: 1px solid black;
+    color: black;
     padding: 10px;
   }
 
@@ -129,22 +138,21 @@ body {
     border-radius: 5px;
   }
   ::-webkit-scrollbar-thumb:hover {
-    background: $dark-grey;
+    background: $dark;
   }
 
   .grafo-word {
-    color: $dark;
+    color: black;
     width: 100%;
     font-size: 16px;
     &:hover {
-      background-color: $dark-grey;
-      cursor: pointer;
+      background-color: black;
     }
   }
 
   .types {
     font-size: 16px;
-    color: $dark-grey;
+    color: black;
   }
 
   .circle {
@@ -166,7 +174,7 @@ body {
 
 .checkbox {
   padding-left: 20px;
-  cursor: pointer;
+  // cursor: pointer;
 }
 
 .checkbox label {
@@ -186,7 +194,7 @@ body {
   left: 0;
   top: 4px;
   margin-left: -20px;
-  border: 1px solid $dark;
+  border: 1px solid black;
   border-radius: 50%;
   background-color: #fff;
   -webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
@@ -257,8 +265,8 @@ body {
 }
 
 .checkbox-words input[type="checkbox"]:checked + label::before {
-  background-color: $dark;
-  border-color: $dark;
+  background-color: black;
+  border-color: black;
 }
 
 // .checkbox-primary input[type="checkbox"]:checked + label::after {

@@ -8,7 +8,7 @@ g = {
             "color": blue,
             "size": 37600,
             "img":  "img/Ailton-Benedito.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "alan-rick",
@@ -18,7 +18,7 @@ g = {
             "color": blue,
             "size": 4085,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "alberto-fraga",
@@ -28,7 +28,7 @@ g = {
             "color": blue,
             "size": 37600,
             "img":  "img/Alberto-Fraga.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "alexandre-frota",
@@ -38,7 +38,7 @@ g = {
             "color": red,
             "size": 166000,
             "img":  "img/Alexandre-Frota.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "alvaro-dias",
@@ -48,7 +48,7 @@ g = {
             "color": blue,
             "size": 394000,
             "img":  "img/AlvaroDias-AlessandroDantasAgenciaSenado.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "ana-lucia-camara",
@@ -58,7 +58,7 @@ g = {
             "color": yellow,
             "size": 298,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "ana-paula-valadao",
@@ -68,7 +68,7 @@ g = {
             "color": red,
             "size": 1055000,
             "img":  "img/AnaPaulaValadão-ReproducaoFacebook.png",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "anderson-ferreira",
@@ -78,7 +78,7 @@ g = {
             "color":  blue,
             "size": 20802,
             "img":  "img/AndersonFerreira-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "andre-camara",
@@ -88,7 +88,7 @@ g = {
             "color":  yellow,
             "size": 29100,
             "img":  "img/AndreCamara-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "bernardo-pires-kuster",
@@ -98,7 +98,7 @@ g = {
             "color":  red,
             "size": 228000,
             "img":  "img/BernardoPiresKuster-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "carlos-bolsonaro",
@@ -108,7 +108,7 @@ g = {
             "color": blue,
             "size": 1190000,
             "img":  "img/CarlosBolsonaro-RenanOlazCMRJ.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "carlos-gomes",
@@ -118,7 +118,7 @@ g = {
             "color": blue,
             "size": 1567,
             "img":  "img/CarlosGomes-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "caroline-de-toni",
@@ -128,7 +128,7 @@ g = {
             "color": blue,
             "size": 19900,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "claudio-duarte",
@@ -138,7 +138,7 @@ g = {
             "color":  yellow,
             "size": 5902,
             "img":  "img/ClaudioDuarte-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "damares-alves",
@@ -148,7 +148,7 @@ g = {
             "color":  blue,
             "size": 351000,
             "img":  "img/DamaresAlves-AlessandroDantasPTnaCamara.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "delegado-waldir",
@@ -158,7 +158,7 @@ g = {
             "color": blue,
             "size": 3455,
             "img":  "img/DelegadoWaldir-FlickrDelegadoWaldir.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "eduardo-bolsonaro",
@@ -168,7 +168,7 @@ g = {
             "color": blue,
             "size": 1480000,
             "img":  "img/EduardoBolsonaro-AlanSantosPR.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "eli-borges",
@@ -178,7 +178,7 @@ g = {
             "color": blue,
             "size": 722,
             "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "fernando-francischini",
@@ -188,7 +188,7 @@ g = {
             "color": blue,
             "size": 357000,
             "img":  "img/FernandoFranschini-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "flavio-bolsonaro",
@@ -198,7 +198,7 @@ g = {
             "color": blue,
             "size": 1300000,
             "img":  "img/FlavioBolsonaro-RodrigoVianaSenadoFederal.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "francisco-junior",
@@ -208,7 +208,7 @@ g = {
             "color": blue,
             "size": 4616,
             "img":  "img/FranciscoJunior-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "gilson-de-souza",
@@ -218,7 +218,7 @@ g = {
             "color": blue,
             "size": 141000,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "heber-camara",
@@ -228,7 +228,7 @@ g = {
             "color":  red,
             "size": 87,
             "img":  "img/HeberCamara-ReproducaoInstagram.png",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "helio-bolsonaro",
@@ -238,7 +238,7 @@ g = {
             "color": blue,
             "size": 54,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "hidekazu-takayama",
@@ -248,7 +248,7 @@ g = {
             "color":   blue,
             "size": 13400,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "jair-bolsonaro",
@@ -258,7 +258,7 @@ g = {
             "color": blue,
             "size": 4350000,
             "img":  "img/JairBolsonaro-MarcosCorreaPR.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "jaufran-siqueira",
@@ -268,7 +268,7 @@ g = {
             "color":  red,
             "size": 2914,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "joao-campos",
@@ -278,7 +278,7 @@ g = {
             "color": blue,
             "size": 7912,
             "img":  "img/JoaoCampos-PabloValadaresCamaradosDeputados.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "joel-da-harpa",
@@ -288,7 +288,7 @@ g = {
             "color": blue,
             "size": 75,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "joice-hasselmann",
@@ -298,7 +298,7 @@ g = {
             "color":  red,
             "size": 341000,
             "img":  "img/JoiceHasselmann-NajaraAraujoCamaradosDeputados.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "jorge-linhares",
@@ -308,7 +308,7 @@ g = {
             "color": yellow,
             "size": 77800,
             "img":  "img/JorgeLinhares-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "joselito-muller",
@@ -318,7 +318,7 @@ g = {
             "color":  red,
             "size": 41900,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "josue-goncalves",
@@ -328,7 +328,7 @@ g = {
             "color": yellow,
             "size": 78500,
             "img":  "img/JosueGoncalves-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "juanribe-pagliarin",
@@ -338,7 +338,7 @@ g = {
             "color": yellow,
             "size": 18500,
             "img":  "img/JuanribePagliarin-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "julio-cesar-ribeiro",
@@ -348,7 +348,7 @@ g = {
             "color": blue,
             "size": 818,
             "img":  "img/JulioCesarRibeiro-CleiaVianaCamaradosDeputados.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "leandro-ruschel",
@@ -358,7 +358,7 @@ g = {
             "color":  red,
             "size": 248000,
             "img":  "img/LeandroRuschel-ReproducaoYoutube.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "liziane-bayer",
@@ -368,7 +368,7 @@ g = {
             "color": blue,
             "size": 2109,
             "img":  "img/LizianeBayer-AssembleiaLegislativadoRioGrandedoSUL.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "luana-camara",
@@ -378,7 +378,7 @@ g = {
             "color":  yellow,
             "size": 1515,
             "img":  "img/LuanaCamara-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "lucia-rodovalho",
@@ -388,7 +388,7 @@ g = {
             "color":  yellow,
             "size": 41400,
             "img":  "img/LuciaRodovalho-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "luciano-subira",
@@ -398,7 +398,7 @@ g = {
             "color": yellow,
             "size": 77300,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "luiz-philippe-o-braganca",
@@ -408,7 +408,7 @@ g = {
             "color": blue,
             "size": 256000,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "magno-malta",
@@ -418,7 +418,7 @@ g = {
             "color": blue,
             "size": 702000,
             "img":  "img/MagnoMalta-WaldemirBarretoAgenciaSenado.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "major-olimpio",
@@ -428,7 +428,7 @@ g = {
             "color": blue,
             "size": 161000,
             "img":  "img/MajorOlimpio-JeffersonRudyAgenciaSenado.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "major-vitor-hugo",
@@ -438,7 +438,7 @@ g = {
             "color": blue,
             "size": 47300,
             "img":  "img/MajorVitorHugo-MarcosCorreaPR.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "marcel-alexandre",
@@ -448,7 +448,7 @@ g = {
             "color":  yellow,
             "size": 25000,
             "img":  "img/MarcelAlexandre-CamaraMunicipaldeManaus.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "marcio-valadao",
@@ -458,7 +458,7 @@ g = {
             "color":  yellow,
             "size": 8929,
             "img":  "img/MarcioValadao-Lagoinha.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "marco-feliciano",
@@ -468,7 +468,7 @@ g = {
             "color": blue,
             "size": 554000,
             "img":  "img/MarcoFeliciano-Podemos.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "marcos-rogerio",
@@ -478,7 +478,7 @@ g = {
             "color": blue,
             "size": 2768,
             "img":  "img/MarcosRogerio-JanedeAraujoAgenciaSenado.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "mecias-de-jesus",
@@ -488,7 +488,7 @@ g = {
             "color": blue,
             "size": 1323,
             "img":  "img/MeciasdeJesus-WaldemirBarretoAgenciaSenado.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "michele-collins",
@@ -498,7 +498,7 @@ g = {
             "color": blue,
             "size": 632,
             "img":  "img/MicheleCollins-ReproducaoSiteMicheleCollins.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "naiane-camara",
@@ -508,7 +508,7 @@ g = {
             "color":  yellow,
             "size": 7165,
             "img":  "img/NaianeCamara-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "olavo-de-carvalho",
@@ -518,7 +518,7 @@ g = {
             "color": red,
             "size": 623000,
             "img":  "img/OlavodeCarvalho-FotoStelaCaymmiReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "onyx-lorenzoni",
@@ -528,7 +528,7 @@ g = {
             "color": blue,
             "size": 361000,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-altair-germano",
@@ -538,7 +538,7 @@ g = {
             "color":  yellow,
             "size": 6371,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-estevam-fernandes",
@@ -548,7 +548,7 @@ g = {
             "color":  yellow,
             "size": 3961,
             "img":  "img/PastorEstevamFernandes-ReproducaoYoutube.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-eurico",
@@ -558,7 +558,7 @@ g = {
             "color": blue,
             "size": 156,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-francisco-tercio",
@@ -568,7 +568,7 @@ g = {
             "color":  yellow,
             "size": 2,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-honorio-pinto",
@@ -578,7 +578,7 @@ g = {
             "color": red,
             "size": 2105,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-jonatas-camara",
@@ -588,7 +588,7 @@ g = {
             "color": yellow,
             "size": 521,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-paulo-bengtson",
@@ -598,7 +598,7 @@ g = {
             "color": blue,
             "size": 177,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-sargento-isidorio",
@@ -608,7 +608,7 @@ g = {
             "color": blue,
             "size": 188,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pastor-sergio-queiroz",
@@ -617,8 +617,8 @@ g = {
             "y": Math.random(),
             "color":  yellow,
             "size": 4043,
-            "img":  "img/PastorSergioQueiroz-ReproducaoYoutubeTVCorreio.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "img":  "img/PastorSergioQueiroz-ReproducaoYoutubeTVCorreio.png",
+            "link": ""
         },
         {
             "id": "paulo-martins",
@@ -628,7 +628,7 @@ g = {
             "color":  red,
             "size": 161000,
             "img":  "img/PauloMartins-LuisMacedoCamaradosDeputados.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "philipe-camara",
@@ -638,7 +638,7 @@ g = {
             "color":  yellow,
             "size": 14200,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "platiny-soares",
@@ -648,7 +648,7 @@ g = {
             "color": blue,
             "size": 1448,
             "img":  "img/PlatinySoares-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "pr-jecer-goes",
@@ -658,7 +658,7 @@ g = {
             "color":  yellow,
             "size": 9359,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "priscila-costa",
@@ -668,7 +668,7 @@ g = {
             "color": blue,
             "size": 8847,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "rafaell-milas-de-oliveira",
@@ -678,7 +678,7 @@ g = {
             "color": blue,
             "size": 131,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "rebekah-camara",
@@ -688,7 +688,7 @@ g = {
             "color":  yellow,
             "size": 16400,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "robson-rodovalho",
@@ -698,7 +698,7 @@ g = {
             "color": yellow,
             "size": 543000,
             "img":  "img/RobsonRodovalho-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "rodrigo-constantino",
@@ -708,7 +708,7 @@ g = {
             "color":  red,
             "size": 199000,
             "img":  "img/RodrigoConstantino-ReproducaoFacebook.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "sargento-fahur",
@@ -718,7 +718,7 @@ g = {
             "color": blue,
             "size": 429000,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "silas-camara",
@@ -728,7 +728,7 @@ g = {
             "color": yellow,
             "size": 32000,
             "img":  "img/SilasCamara-DouglasGomesPRBLideranca.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "silas-malafaia",
@@ -738,7 +738,7 @@ g = {
             "color":  yellow,
             "size": 1400000,
             "img":  "img/SilasMalafaia-FotoMarcosCorreaPR.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "soraya-thronicke",
@@ -748,7 +748,7 @@ g = {
             "color": blue,
             "size": 34400,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "thiago-camara",
@@ -758,7 +758,7 @@ g = {
             "color":  red,
             "size": 116,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "tulio-ferreira",
@@ -768,7 +768,7 @@ g = {
             "color":  red,
             "size": 311,
             "img":  "img/TulioFerreira-ReproducaoInstagram.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
         {
             "id": "victorio-galli",
@@ -778,7 +778,7 @@ g = {
             "color": blue,
             "size": 96,
             "img":  "img/perfil-um.jpg",
-            "link": "http://dev.rckt.com.br/ucc/"
+            "link": ""
         },
     ],
 };

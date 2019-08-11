@@ -20,7 +20,7 @@ categories['blue'] = [
     'flavio-bolsonaro',
     'francisco-junior',
     'gilson-de-souza',
-    'heIio-bolsonaro',
+    'helio-bolsonaro',
     'hidekazu-takayama',
     'jair-bolsonaro',
     'joao-campos',
