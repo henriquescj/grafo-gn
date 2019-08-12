@@ -30,7 +30,7 @@ $.each(edgesArray, function (index, person) {
         id: 'ailton-benedito-de-sousa' + index,
         source: 'ailton-benedito-de-sousa',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -57,7 +57,7 @@ $.each(edgesArray, function (index, person) {
         id: 'alan-rick' + index,
         source: 'alan-rick',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -83,7 +83,7 @@ $.each(edgesArray, function (index, person) {
         id: 'alberto-fraga' + index,
         source: 'alberto-fraga',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -111,7 +111,7 @@ $.each(edgesArray, function (index, person) {
         id: 'alexandre-frota' + index,
         source: 'alexandre-frota',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -138,7 +138,7 @@ $.each(edgesArray, function (index, person) {
         id: 'alvaro-dias' + index,
         source: 'alvaro-dias',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -155,7 +155,7 @@ $.each(edgesArray, function (index, person) {
         id: 'ana-lucia-camara' + index,
         source: 'ana-lucia-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -168,7 +168,7 @@ $.each(edgesArray, function (index, person) {
         id: 'ana-paula-valadao' + index,
         source: 'ana-paula-valadao',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -185,7 +185,7 @@ $.each(edgesArray, function (index, person) {
         id: 'anderson-ferreira' + index,
         source: 'anderson-ferreira',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -215,7 +215,7 @@ $.each(edgesArray, function (index, person) {
         id: 'andre-camara' + index,
         source: 'andre-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -237,7 +237,7 @@ $.each(edgesArray, function (index, person) {
         id: 'bernardo-pires-kuster' + index,
         source: 'bernardo-pires-kuster',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -268,7 +268,7 @@ $.each(edgesArray, function (index, person) {
         id: 'carlos-bolsonaro' + index,
         source: 'carlos-bolsonaro',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -282,7 +282,7 @@ $.each(edgesArray, function (index, person) {
         id: 'carlos-gomes' + index,
         source: 'carlos-gomes',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -300,7 +300,7 @@ $.each(edgesArray, function (index, person) {
         id: 'caroline-de-toni' + index,
         source: 'caroline-de-toni',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -316,7 +316,7 @@ $.each(edgesArray, function (index, person) {
         id: 'claudio-duarte' + index,
         source: 'claudio-duarte',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -337,7 +337,7 @@ $.each(edgesArray, function (index, person) {
         id: 'damares-alves' + index,
         source: 'damares-alves',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -352,7 +352,7 @@ $.each(edgesArray, function (index, person) {
         id: 'delegado-waldir' + index,
         source: 'delegado-waldir',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -386,7 +386,7 @@ $.each(edgesArray, function (index, person) {
         id: 'eduardo-bolsonaro' + index,
         source: 'eduardo-bolsonaro',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -399,7 +399,7 @@ $.each(edgesArray, function (index, person) {
         id: 'eli-borges' + index,
         source: 'eli-borges',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -425,7 +425,7 @@ edgesArray = [
 //         id: 'elienai-camara' + index,
 //         source: 'elienai-camara',
 //         target: person,
-//         size: Math.random(),
+//         size: 1,
 //         type: 'dash',
 //     });
 // });
@@ -452,7 +452,7 @@ edgesArray = [
 //         id: 'felipe-francischini' + index,
 //         source: 'felipe-francischini',
 //         target: person,
-//         size: Math.random(),
+//         size: 1,
 //         type: 'dash',
 //     });
 // });
@@ -475,7 +475,7 @@ $.each(edgesArray, function (index, person) {
         id: 'fernando-francischini' + index,
         source: 'fernando-francischini',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -509,7 +509,7 @@ $.each(edgesArray, function (index, person) {
         id: 'flavio-bolsonaro' + index,
         source: 'flavio-bolsonaro',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -536,7 +536,7 @@ $.each(edgesArray, function (index, person) {
         id: 'francisco-junior' + index,
         source: 'francisco-junior',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -551,7 +551,7 @@ $.each(edgesArray, function (index, person) {
         id: 'gilson-de-souza' + index,
         source: 'gilson-de-souza',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -572,7 +572,7 @@ $.each(edgesArray, function (index, person) {
         id: 'heber-camara' + index,
         source: 'heber-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -585,7 +585,7 @@ $.each(edgesArray, function (index, person) {
         id: 'helio-bolsonaro' + index,
         source: 'helio-bolsonaro',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -614,7 +614,7 @@ $.each(edgesArray, function (index, person) {
         id: 'hidekazu-takayama' + index,
         source: 'hidekazu-takayama',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -646,8 +646,9 @@ $.each(edgesArray, function (index, person) {
         id: 'jair-bolsonaro' + index,
         source: 'jair-bolsonaro',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
+        // color: "rgba(0,49,61,0.3)",
     });
 });
 // jaufran-siqueira
@@ -659,7 +660,7 @@ $.each(edgesArray, function (index, person) {
         id: 'jaufran-siqueira' + index,
         source: 'jaufran-siqueira',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -680,7 +681,7 @@ $.each(edgesArray, function (index, person) {
         id: 'joao-campos' + index,
         source: 'joao-campos',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -693,7 +694,7 @@ $.each(edgesArray, function (index, person) {
         id: 'joel-da-harpa' + index,
         source: 'joel-da-harpa',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -720,7 +721,7 @@ $.each(edgesArray, function (index, person) {
         id: 'joice-hasselmann' + index,
         source: 'joice-hasselmann',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -735,7 +736,7 @@ $.each(edgesArray, function (index, person) {
         id: 'jorge-linhares' + index,
         source: 'jorge-linhares',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -761,7 +762,7 @@ $.each(edgesArray, function (index, person) {
         id: 'joselito-muller' + index,
         source: 'joselito-muller',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -783,7 +784,7 @@ $.each(edgesArray, function (index, person) {
         id: 'josue-goncalves' + index,
         source: 'josue-goncalves',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -799,7 +800,7 @@ $.each(edgesArray, function (index, person) {
         id: 'juanribe-pagliarin' + index,
         source: 'juanribe-pagliarin',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -826,7 +827,7 @@ $.each(edgesArray, function (index, person) {
         id: 'julio-cesar-ribeiro' + index,
         source: 'julio-cesar-ribeiro',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -853,7 +854,7 @@ $.each(edgesArray, function (index, person) {
         id: 'leandro-ruschel' + index,
         source: 'leandro-ruschel',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -882,7 +883,7 @@ $.each(edgesArray, function (index, person) {
         id: 'liziane-bayer' + index,
         source: 'liziane-bayer',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -902,7 +903,7 @@ $.each(edgesArray, function (index, person) {
         id: 'luana-camara' + index,
         source: 'luana-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -923,7 +924,7 @@ $.each(edgesArray, function (index, person) {
         id: 'lucia-rodovalho' + index,
         source: 'lucia-rodovalho',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -941,7 +942,7 @@ $.each(edgesArray, function (index, person) {
         id: 'luciano-subira' + index,
         source: 'luciano-subira',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -967,7 +968,7 @@ $.each(edgesArray, function (index, person) {
         id: 'luiz-philippe-o-braganca' + index,
         source: 'luiz-philippe-o-braganca',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -989,7 +990,7 @@ $.each(edgesArray, function (index, person) {
         id: 'magno-malta' + index,
         source: 'magno-malta',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1003,7 +1004,7 @@ $.each(edgesArray, function (index, person) {
         id: 'major-olimpio' + index,
         source: 'major-olimpio',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1025,7 +1026,7 @@ $.each(edgesArray, function (index, person) {
         id: 'major-vitor-hugo' + index,
         source: 'major-vitor-hugo',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1056,7 +1057,7 @@ $.each(edgesArray, function (index, person) {
         id: 'marcel-alexandre' + index,
         source: 'marcel-alexandre',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1074,7 +1075,7 @@ $.each(edgesArray, function (index, person) {
         id: 'marcio-valadao' + index,
         source: 'marcio-valadao',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1096,7 +1097,7 @@ $.each(edgesArray, function (index, person) {
         id: 'marco-feliciano' + index,
         source: 'marco-feliciano',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1118,7 +1119,7 @@ $.each(edgesArray, function (index, person) {
         id: 'marcos-rogerio' + index,
         source: 'marcos-rogerio',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1131,7 +1132,7 @@ $.each(edgesArray, function (index, person) {
         id: 'mecias-de-jesus' + index,
         source: 'mecias-de-jesus',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1144,7 +1145,7 @@ $.each(edgesArray, function (index, person) {
         id: 'michele-collins' + index,
         source: 'michele-collins',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1167,7 +1168,7 @@ $.each(edgesArray, function (index, person) {
         id: 'naiane-camara' + index,
         source: 'naiane-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1186,7 +1187,7 @@ $.each(edgesArray, function (index, person) {
         id: 'olavo-de-carvalho' + index,
         source: 'olavo-de-carvalho',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1217,7 +1218,7 @@ $.each(edgesArray, function (index, person) {
         id: 'onyx-lorenzoni' + index,
         source: 'onyx-lorenzoni',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1236,7 +1237,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-altair-germano' + index,
         source: 'pastor-altair-germano',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1250,7 +1251,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-estevam-fernandes' + index,
         source: 'pastor-estevam-fernandes',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1264,7 +1265,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-eurico' + index,
         source: 'pastor-eurico',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1281,7 +1282,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-francisco-tercio' + index,
         source: 'pastor-francisco-tercio',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1306,7 +1307,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-honorio-pinto' + index,
         source: 'pastor-honorio-pinto',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1334,7 +1335,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-jonatas-camara' + index,
         source: 'pastor-jonatas-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1349,7 +1350,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-paulo-bengtson' + index,
         source: 'pastor-paulo-bengtson',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1362,7 +1363,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-sargento-isidorio' + index,
         source: 'pastor-sargento-isidorio',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1377,7 +1378,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pastor-sergio-queiroz' + index,
         source: 'pastor-sergio-queiroz',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1406,7 +1407,7 @@ $.each(edgesArray, function (index, person) {
         id: 'paulo-martins' + index,
         source: 'paulo-martins',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1437,7 +1438,7 @@ $.each(edgesArray, function (index, person) {
         id: 'philipe-camara' + index,
         source: 'philipe-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1460,7 +1461,7 @@ $.each(edgesArray, function (index, person) {
         id: 'platiny-soares' + index,
         source: 'platiny-soares',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1480,7 +1481,7 @@ $.each(edgesArray, function (index, person) {
         id: 'pr-jecer-goes' + index,
         source: 'pr-jecer-goes',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1515,7 +1516,7 @@ $.each(edgesArray, function (index, person) {
         id: 'priscila-costa' + index,
         source: 'priscila-costa',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1532,7 +1533,7 @@ $.each(edgesArray, function (index, person) {
         id: 'rafaell-milas-de-oliveira' + index,
         source: 'rafaell-milas-de-oliveira',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1554,7 +1555,7 @@ $.each(edgesArray, function (index, person) {
         id: 'rebekah-camara' + index,
         source: 'rebekah-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1576,7 +1577,7 @@ $.each(edgesArray, function (index, person) {
         id: 'robson-rodovalho' + index,
         source: 'robson-rodovalho',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1601,7 +1602,7 @@ $.each(edgesArray, function (index, person) {
         id: 'rodrigo-constantino' + index,
         source: 'rodrigo-constantino',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1622,8 +1623,9 @@ $.each(edgesArray, function (index, person) {
         id: 'sargento-fahur' + index,
         source: 'sargento-fahur',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
+        // color: "rgba(0,49,61,0.5)",
     });
 });
 // selma-arruda
@@ -1637,7 +1639,7 @@ edgesArray = [
 //         id: 'selma-arruda' + index,
 //         source: 'selma-arruda',
 //         target: person,
-//         size: Math.random(),
+//         size: 1,
 //         type: 'dash',
 //     });
 // });
@@ -1671,7 +1673,7 @@ $.each(edgesArray, function (index, person) {
         id: 'silas-camara' + index,
         source: 'silas-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1693,7 +1695,7 @@ $.each(edgesArray, function (index, person) {
         id: 'silas-malafaia' + index,
         source: 'silas-malafaia',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1719,7 +1721,7 @@ $.each(edgesArray, function (index, person) {
         id: 'soraya-thronicke' + index,
         source: 'soraya-thronicke',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1737,7 +1739,7 @@ $.each(edgesArray, function (index, person) {
         id: 'thiago-camara' + index,
         source: 'thiago-camara',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1753,7 +1755,7 @@ $.each(edgesArray, function (index, person) {
         id: 'tulio-ferreira' + index,
         source: 'tulio-ferreira',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });
@@ -1777,7 +1779,7 @@ $.each(edgesArray, function (index, person) {
         id: 'victorio-galli' + index,
         source: 'victorio-galli',
         target: person,
-        size: Math.random(),
+        size: 1,
         type: 'dash',
     });
 });

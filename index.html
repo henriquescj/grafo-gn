@@ -389,14 +389,15 @@
       settings: {
         minNodeSize: 5,
         maxNodeSize: 30,
-        minEdgeSize: 1,
-        maxEdgeSize: 1,
+        minEdgeSize: 2,
+        maxEdgeSize: 2,
         singleHover: true,
         drawLabels: false,
         drawEdgeLabels: false,
         enableEdgeHovering: false,
         enableHovering: false,
         mouseWheelEnabled: false,
+        doubleClickEnabled: false,
       },
     });
 
@@ -429,6 +430,9 @@
     // We do the same for the edges, and we only keep
     // edges that have both extremities colored.
     s.bind('clickNode', function(clickedNode) {
+      $(".filter-categories").prop("checked", true).addClass("categoriaSelecionada");
+      $(".filter-word").prop("checked", false).removeClass("palavraSelecionada");
+      initializePermitedIds();
       var nodeId = clickedNode.data.node.id,
           toKeep = s.graph.neighbors(nodeId);
       toKeep[nodeId] = clickedNode.data.node;
