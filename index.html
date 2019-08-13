@@ -98,7 +98,7 @@
               <input id="brasileiros" class="input-grafo filter-word" type="checkbox" data-value="brasileiros"><label class="label-grafo" for="brasileiros">brasileiros</label>
             </div>
             <div>
-              <input id="camara" class="input-grafo filter-word" type="checkbox" data-value="camara"><label class="label-grafo" for="camara">camara</label>
+              <input id="camara" class="input-grafo filter-word" type="checkbox" data-value="camara"><label class="label-grafo" for="camara">câmara</label>
             </div>
             <div>
               <input id="carnaval" class="input-grafo filter-word" type="checkbox" data-value="carnaval"><label class="label-grafo" for="carnaval">carnaval</label>
@@ -164,10 +164,10 @@
               <input id="exemplo" class="input-grafo filter-word" type="checkbox" data-value="exemplo"><label class="label-grafo" for="exemplo">exemplo</label>
             </div>
             <div>
-              <input id="familia" class="input-grafo filter-word" type="checkbox" data-value="familia"><label class="label-grafo" for="familia">familia</label>
+              <input id="familia" class="input-grafo filter-word" type="checkbox" data-value="familia"><label class="label-grafo" for="familia">família</label>
             </div>
             <div>
-              <input id="familias" class="input-grafo filter-word" type="checkbox" data-value="familias"><label class="label-grafo" for="familias">familias</label>
+              <input id="familias" class="input-grafo filter-word" type="checkbox" data-value="familias"><label class="label-grafo" for="familias">famílias</label>
             </div>
             <div>
               <input id="federal" class="input-grafo filter-word" type="checkbox" data-value="federal"><label class="label-grafo" for="federal">federal</label>
@@ -188,7 +188,7 @@
               <input id="gays" class="input-grafo filter-word" type="checkbox" data-value="gays"><label class="label-grafo" for="gays">gays</label>
             </div>
             <div>
-              <input id="genero" class="input-grafo filter-word" type="checkbox" data-value="genero"><label class="label-grafo" for="genero">genero</label>
+              <input id="genero" class="input-grafo filter-word" type="checkbox" data-value="genero"><label class="label-grafo" for="genero">gênero</label>
             </div>
             <div>
               <input id="governo" class="input-grafo filter-word" type="checkbox" data-value="governo"><label class="label-grafo" for="governo">governo</label>
@@ -197,7 +197,7 @@
               <input id="hino" class="input-grafo filter-word" type="checkbox" data-value="hino"><label class="label-grafo" for="hino">hino</label>
             </div>
             <div>
-              <input id="historia" class="input-grafo filter-word" type="checkbox" data-value="historia"><label class="label-grafo" for="historia">historia</label>
+              <input id="historia" class="input-grafo filter-word" type="checkbox" data-value="historia"><label class="label-grafo" for="historia">história</label>
             </div>
             <div>
               <input id="homem" class="input-grafo filter-word" type="checkbox" data-value="homem"><label class="label-grafo" for="homem">homem</label>
@@ -239,10 +239,10 @@
               <input id="lideres" class="input-grafo filter-word" type="checkbox" data-value="lideres"><label class="label-grafo" for="lideres">lideres</label>
             </div>
             <div>
-              <input id="mae" class="input-grafo filter-word" type="checkbox" data-value="mae"><label class="label-grafo" for="mae">mae</label>
+              <input id="mae" class="input-grafo filter-word" type="checkbox" data-value="mae"><label class="label-grafo" for="mae">mãe</label>
             </div>
             <div>
-              <input id="ministerio" class="input-grafo filter-word" type="checkbox" data-value="ministerio"><label class="label-grafo" for="ministerio">ministerio</label>
+              <input id="ministerio" class="input-grafo filter-word" type="checkbox" data-value="ministerio"><label class="label-grafo" for="ministerio">ministério</label>
             </div>
             <div>
               <input id="ministra" class="input-grafo filter-word" type="checkbox" data-value="ministra"><label class="label-grafo" for="ministra">ministra</label>
@@ -560,11 +560,11 @@
 
     // Configure the noverlap layout:
     var noverlapListener = s.configNoverlap({
-      nodeMargin: 200,
-      scaleNodes: 200,
-      gridSize: 2000,
+      nodeMargin: 0.1,
+      scaleNodes: 1.5,
+      gridSize: 75,
       easing: 'quadraticInOut', // animation transition function
-      duration: 1000000   // animation duration. Long here for the purposes of this example only
+      duration: 10  // animation duration. Long here for the purposes of this example only
     });
     // Bind the events:
     noverlapListener.bind('start stop interpolate', function(e) {
@@ -576,4 +576,9 @@
         console.timeEnd('noverlap');
       }
     });
+    s.startNoverlap();
+
+    // Initialize the dragNodes plugin:
+    // var dragListener = sigma.plugins.dragNodes(s, s.renderers[0]);
+
 </script>

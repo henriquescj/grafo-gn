@@ -20,7 +20,7 @@ gulp.task('js', function(){
       'node_modules/sigma/build/plugins/sigma.plugins.animate.min.js',
       'node_modules/sigma/build/plugins/sigma.layout.noverlap.min.js',
       'node_modules/sigma/build/plugins/sigma.renderers.customEdgeShapes.min.js',
-      // 'node_modules/bootstrap/dist/js/bootstrap.min.js',
+      "node_modules/sigma/build/plugins/sigma.plugins.dragNodes.min.js",
     ])
     .pipe(sourcemaps.init())
     .pipe(concat('grafo-componentes.js'))
