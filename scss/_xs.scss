@@ -12,6 +12,11 @@ body {
     // background-color: $grey;
 }
 
+.caption-svg {
+  width: 100%;
+  height: 60px;
+}
+
 .grafo-gn {
   margin-top: 40px;
   // display: flex;
@@ -285,10 +290,7 @@ body {
 }
 
 .positon-caption {
-  position: absolute;
-  bottom: 0px;
   background-color: white;
-  width: 230px;
 }
 
 .big-circle-caption {
@@ -306,4 +308,9 @@ body {
   position: absolute;
   bottom: 0px;
   left: 24px;
+}
+
+.filter-pb {
+  filter: grayscale(0.9);
+  -webkit-filter: grayscale(0.9);
 }

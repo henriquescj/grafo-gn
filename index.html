@@ -13,17 +13,20 @@
   <div class="col-lg-9 col-12">
     <div class="grafo-gn grafo-gn-canvas">
       <!-- legenda -->
-        <div class="positon-caption">
+        <div class="positon-caption order-lg-1 order-2">
           <p>As setas indicam que os perfis seguem e/ou são seguidos no twitter</p>
           <p><strong>Seguidores</strong></p>
-          <div class="big-circle-caption">
-            <div class="sm-circle-caption"></div>
+          <div class="caption-svg">
+            <img src="img/caption.svg" alt="">
           </div>
+          <!-- <div class="big-circle-caption">
+            <div class="sm-circle-caption"></div>
+          </div> -->
         </div>
       <!-- grafo sigma -->
         <style>
         </style>
-        <div id="graph-container"></div>
+        <div id="graph-container" class="order-lg-2 order-1"></div>
         <div id="aparecer"></div>
     </div>
   </div>
@@ -482,7 +485,7 @@
       novaDiv +='<div class="box-infos" style="position: absolute; top:' + y + 'px; left: ' + x + 'px;">';
         novaDiv +='<div class="talk-bubble border tri-right btm-left">';
           novaDiv +='<div class="talktext d-flex">';
-            novaDiv +='<img class="img-perfil bg-img" src=" ' + e.data.node.img + ' " alt=" ' + e.data.node.label + ' ">';
+            novaDiv +='<img class="img-perfil bg-img filter-pb" src=" ' + e.data.node.img + ' " alt=" ' + e.data.node.label + ' ">';
             novaDiv +='<a class="link-perfil" href=" ' + e.data.node.link + ' " target="_blank"><p class="ml-2"> '+ e.data.node.label +' </p></a>';
           novaDiv +='</div>';
         novaDiv +='</div>';
