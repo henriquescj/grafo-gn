@@ -402,7 +402,7 @@ g = {
         },
         {
             "id": "luiz-philippe-o-braganca",
-            "label": "Luiz Philippe o Braganca",
+            "label": "Luiz Philippe o Bragança",
             "x": Math.random(),
             "y": Math.random(),
             "color": blue,
@@ -652,7 +652,7 @@ g = {
         },
         {
             "id": "pr-jecer-goes",
-            "label": "pr-jecer-goes",
+            "label": "Pr Jecer Goes",
             "x": Math.random(),
             "y": Math.random(),
             "color":  yellow,

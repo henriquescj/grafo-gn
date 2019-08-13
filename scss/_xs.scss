@@ -25,7 +25,7 @@ body {
   }
   p {
     font-size: 16px;
-    line-height: 1em;
+    line-height: 20px;
   }
   a:link, a:hover, a:visited {
     color: inherit;
@@ -174,6 +174,7 @@ body {
 
 .checkbox {
   padding-left: 20px;
+  position: relative;
   // cursor: pointer;
 }
 
@@ -281,4 +282,28 @@ body {
 
 .input-grafo {
   position: absolute;
+}
+
+.positon-caption {
+  position: absolute;
+  bottom: 0px;
+  background-color: white;
+  width: 230px;
+}
+
+.big-circle-caption {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 58px;
+  height: 58px;
+}
+
+.sm-circle-caption {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 0px;
+  left: 24px;
 }
