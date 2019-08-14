@@ -505,11 +505,11 @@
       s.graph.nodes().forEach(function(n) {
         n.color = n.originalColor;
       });
-
       s.graph.edges().forEach(function(e) {
         e.color = e.originalColor;
         e.type = "line";
       });
+      s.refresh();
     });
 
     $("#limpar-selecao").click(function() {
