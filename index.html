@@ -484,6 +484,8 @@
       var x = e.data.node["renderer1:x"] + 0;
       var novaDiv = "";
 
+      document.getElementById('graph-container').style.cursor = 'pointer';
+
       novaDiv +='<div class="box-infos" style="position: absolute; top:' + y + 'px; left: ' + x + 'px;">';
         novaDiv +='<div class="talk-bubble border tri-right btm-left">';
           novaDiv +='<div class="talktext d-flex">';
@@ -497,6 +499,7 @@
     });
 
     s.bind('outNode', function (e) {
+      document.getElementById('graph-container').style.cursor = 'default';
       setTimeout(function(){ $("#aparecer").empty(); }, 3000);
     });
 
