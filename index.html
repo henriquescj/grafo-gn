@@ -17,7 +17,7 @@
           <p>As setas indicam que os perfis seguem e/ou são seguidos no twitter</p>
           <p><strong>Seguidores</strong></p>
           <div class="caption-svg">
-            <img src="img/caption.svg" alt="">
+            <img src="img/legenda.svg" alt="">
           </div>
           <!-- <div class="big-circle-caption">
             <div class="sm-circle-caption"></div>
@@ -521,14 +521,14 @@
       });
 
       s.graph.edges().forEach(function(e) {
-        e.color = '#cccccc';
+        e.color = '#e0e0e0';
       });
       s.graph.nodes().forEach(function(node) {
         if (($.inArray(node.id, permitidedIdsWords) > -1 || !permitidedIdsWords.length) && $.inArray(node.id, permitidedIdsCategories) > -1) {
           node.color = node.originalColor;
         }
         else
-          node.color = '#cccccc';
+          node.color = '#e0e0e0';
       });
       s.refresh();
     });
@@ -546,14 +546,14 @@
       });
 
       s.graph.edges().forEach(function(e) {
-        e.color = '#cccccc';
+        e.color = '#e0e0e0';
       });
       s.graph.nodes().forEach(function(node) {
         if ($.inArray(node.id, permitidedIdsWords) > -1 && $.inArray(node.id, permitidedIdsCategories) > -1) {
           node.color = node.originalColor;
         }
         else
-          node.color = '#cccccc';
+          node.color = '#e0e0e0';
       });
       s.refresh();
     });
