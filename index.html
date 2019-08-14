@@ -485,8 +485,8 @@
       novaDiv +='<div class="box-infos" style="position: absolute; top:' + y + 'px; left: ' + x + 'px;">';
         novaDiv +='<div class="talk-bubble border tri-right btm-left">';
           novaDiv +='<div class="talktext d-flex">';
-            novaDiv +='<img class="img-perfil bg-img filter-pb" src=" ' + e.data.node.img + ' " alt=" ' + e.data.node.label + ' ">';
-            novaDiv +='<a class="link-perfil" href=" ' + e.data.node.link + ' " target="_blank"><p class="ml-2"> '+ e.data.node.label +' </p></a>';
+            novaDiv +='<img class="img-perfil bg-img filter-pb" src=" ' + e.data.node.img + ' " alt=" ' + e.data.node.user + ' ">';
+            novaDiv +='<a class="link-perfil" href=" ' + e.data.node.link + ' " target="_blank"><p class="ml-2"> '+ e.data.node.user +' </p></a>';
           novaDiv +='</div>';
         novaDiv +='</div>';
       novaDiv +='</div>';
@@ -579,6 +579,6 @@
     s.startNoverlap();
 
     // Initialize the dragNodes plugin:
-    // var dragListener = sigma.plugins.dragNodes(s, s.renderers[0]);
+    var dragListener = sigma.plugins.dragNodes(s, s.renderers[0]);
 
 </script>

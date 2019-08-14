@@ -13,7 +13,7 @@ g = {
     "nodes": [
         {
             "id": "ailton-benedito-de-sousa",
-            "label": "Ailton Benedito de Sousa",
+            "user": "Ailton Benedito de Sousa",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -23,17 +23,17 @@ g = {
         },
         {
             "id": "alan-rick",
-            "label": "Alan Rick",
+            "user": "Alan Rick",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 4085,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/AlanRick.jpg",
             "link": ""
         },
         {
             "id": "alberto-fraga",
-            "label": "Alberto Fraga",
+            "user": "Alberto Fraga",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -43,7 +43,7 @@ g = {
         },
         {
             "id": "alexandre-frota",
-            "label": "Alexandre Frota",
+            "user": "Alexandre Frota",
             "x": getAnX(),
             "y": getAnY(),
             "color": red,
@@ -53,7 +53,7 @@ g = {
         },
         {
             "id": "alvaro-dias",
-            "label": "Álvaro Dias",
+            "user": "Álvaro Dias",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -63,17 +63,17 @@ g = {
         },
         {
             "id": "ana-lucia-camara",
-            "label": "Ana Lucia Camara",
+            "user": "Ana Lucia Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
             "size": 298,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/AnaLuciaCamara.jpg",
             "link": ""
         },
         {
             "id": "ana-paula-valadao",
-            "label": "Ana Paula Valadão",
+            "user": "Ana Paula Valadão",
             "x": getAnX(),
             "y": getAnY(),
             "color": red,
@@ -83,7 +83,7 @@ g = {
         },
         {
             "id": "anderson-ferreira",
-            "label": "Anderson Ferreira",
+            "user": "Anderson Ferreira",
             "x": getAnX(),
             "y": getAnY(),
             "color":  blue,
@@ -93,7 +93,7 @@ g = {
         },
         {
             "id": "andre-camara",
-            "label": "Andre Camara",
+            "user": "Andre Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -103,7 +103,7 @@ g = {
         },
         {
             "id": "bernardo-pires-kuster",
-            "label": "Bernardo Pires Kuster",
+            "user": "Bernardo Pires Kuster",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -113,7 +113,7 @@ g = {
         },
         {
             "id": "carlos-bolsonaro",
-            "label": "Carlos Bolsonaro",
+            "user": "Carlos Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -123,7 +123,7 @@ g = {
         },
         {
             "id": "carlos-gomes",
-            "label": "Carlos Gomes",
+            "user": "Carlos Gomes",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -133,17 +133,17 @@ g = {
         },
         {
             "id": "caroline-de-toni",
-            "label": "Caroline de Toni",
+            "user": "Caroline de Toni",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 19900,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/CarolinedeToni.jpg",
             "link": ""
         },
         {
             "id": "claudio-duarte",
-            "label": "Claudio Duarte",
+            "user": "Claudio Duarte",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -153,7 +153,7 @@ g = {
         },
         {
             "id": "damares-alves",
-            "label": "Damares Alves",
+            "user": "Damares Alves",
             "x": getAnX(),
             "y": getAnY(),
             "color":  blue,
@@ -163,7 +163,7 @@ g = {
         },
         {
             "id": "delegado-waldir",
-            "label": "Delegado Waldir",
+            "user": "Delegado Waldir",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -173,7 +173,7 @@ g = {
         },
         {
             "id": "eduardo-bolsonaro",
-            "label": "Eduardo Bolsonaro",
+            "user": "Eduardo Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -183,7 +183,7 @@ g = {
         },
         {
             "id": "eli-borges",
-            "label": "Eli Borges",
+            "user": "Eli Borges",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -193,7 +193,7 @@ g = {
         },
         {
             "id": "fernando-francischini",
-            "label": "Fernando Francischini",
+            "user": "Fernando Francischini",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -203,7 +203,7 @@ g = {
         },
         {
             "id": "flavio-bolsonaro",
-            "label": "Flavio Bolsonaro",
+            "user": "Flavio Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -213,7 +213,7 @@ g = {
         },
         {
             "id": "francisco-junior",
-            "label": "Francisco Junior",
+            "user": "Francisco Junior",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -223,17 +223,17 @@ g = {
         },
         {
             "id": "gilson-de-souza",
-            "label": "Gilson de Souza",
+            "user": "Gilson de Souza",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 141000,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/GilsondeSouza-AssembleiaLegislativaPR.jpg",
             "link": ""
         },
         {
             "id": "heber-camara",
-            "label": "Heber Camara",
+            "user": "Heber Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -243,27 +243,27 @@ g = {
         },
         {
             "id": "helio-bolsonaro",
-            "label": "Helio Bolsonaro",
+            "user": "Helio Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 54,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/HelioBolsonaro-CamaradosDeputados.jpg",
             "link": ""
         },
         {
             "id": "hidekazu-takayama",
-            "label": "Hidekazu Takayama",
+            "user": "Hidekazu Takayama",
             "x": getAnX(),
             "y": getAnY(),
             "color":   blue,
             "size": 13400,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/HidekazuTakayama-CamaradosDeputados.jpg",
             "link": ""
         },
         {
             "id": "jair-bolsonaro",
-            "label": "Jair Bolsonaro",
+            "user": "Jair Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -273,17 +273,17 @@ g = {
         },
         {
             "id": "jaufran-siqueira",
-            "label": "Jaufran Siqueira",
+            "user": "Jaufran Siqueira",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
             "size": 2914,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/JaufranSiqueira-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "joao-campos",
-            "label": "Joao Campos",
+            "user": "Joao Campos",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -293,17 +293,17 @@ g = {
         },
         {
             "id": "joel-da-harpa",
-            "label": "Joel da Harpa",
+            "user": "Joel da Harpa",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 75,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/JoeldaHarpa-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "joice-hasselmann",
-            "label": "Joice Hasselmann",
+            "user": "Joice Hasselmann",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -313,7 +313,7 @@ g = {
         },
         {
             "id": "jorge-linhares",
-            "label": "Jorge Linhares",
+            "user": "Jorge Linhares",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
@@ -323,7 +323,7 @@ g = {
         },
         {
             "id": "joselito-muller",
-            "label": "Joselito Muller",
+            "user": "Joselito Muller",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -333,7 +333,7 @@ g = {
         },
         {
             "id": "josue-goncalves",
-            "label": "Josue Goncalves",
+            "user": "Josue Goncalves",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
@@ -343,7 +343,7 @@ g = {
         },
         {
             "id": "juanribe-pagliarin",
-            "label": "Juanribe Pagliarin",
+            "user": "Juanribe Pagliarin",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
@@ -353,7 +353,7 @@ g = {
         },
         {
             "id": "julio-cesar-ribeiro",
-            "label": "Julio Cesar Ribeiro",
+            "user": "Julio Cesar Ribeiro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -363,7 +363,7 @@ g = {
         },
         {
             "id": "leandro-ruschel",
-            "label": "Leandro Ruschel",
+            "user": "Leandro Ruschel",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -373,7 +373,7 @@ g = {
         },
         {
             "id": "liziane-bayer",
-            "label": "Liziane Bayer",
+            "user": "Liziane Bayer",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -383,7 +383,7 @@ g = {
         },
         {
             "id": "luana-camara",
-            "label": "Luana Camara",
+            "user": "Luana Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -393,7 +393,7 @@ g = {
         },
         {
             "id": "lucia-rodovalho",
-            "label": "Lucia Rodovalho",
+            "user": "Lucia Rodovalho",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -403,27 +403,27 @@ g = {
         },
         {
             "id": "luciano-subira",
-            "label": "Luciano Subira",
+            "user": "Luciano Subira",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
             "size": 77300,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/LucianoSubira-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "luiz-philippe-o-braganca",
-            "label": "Luiz Philippe o Bragança",
+            "user": "Luiz Philippe o Bragança",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 256000,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/LuizPhilippeOBraganca-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "magno-malta",
-            "label": "Magno Malta",
+            "user": "Magno Malta",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -433,7 +433,7 @@ g = {
         },
         {
             "id": "major-olimpio",
-            "label": "Major Olimpio",
+            "user": "Major Olimpio",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -443,7 +443,7 @@ g = {
         },
         {
             "id": "major-vitor-hugo",
-            "label": "Major Vitor Hugo",
+            "user": "Major Vitor Hugo",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -453,7 +453,7 @@ g = {
         },
         {
             "id": "marcel-alexandre",
-            "label": "Marcel Alexandre",
+            "user": "Marcel Alexandre",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -463,7 +463,7 @@ g = {
         },
         {
             "id": "marcio-valadao",
-            "label": "Marcio Valadao",
+            "user": "Marcio Valadao",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -473,7 +473,7 @@ g = {
         },
         {
             "id": "marco-feliciano",
-            "label": "Marco Feliciano",
+            "user": "Marco Feliciano",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -483,7 +483,7 @@ g = {
         },
         {
             "id": "marcos-rogerio",
-            "label": "Marcos Rogerio",
+            "user": "Marcos Rogerio",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -493,7 +493,7 @@ g = {
         },
         {
             "id": "mecias-de-jesus",
-            "label": "Mecias de Jesus",
+            "user": "Mecias de Jesus",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -503,7 +503,7 @@ g = {
         },
         {
             "id": "michele-collins",
-            "label": "Michele Collins",
+            "user": "Michele Collins",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -513,7 +513,7 @@ g = {
         },
         {
             "id": "naiane-camara",
-            "label": "Naiane Camara",
+            "user": "Naiane Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -523,7 +523,7 @@ g = {
         },
         {
             "id": "olavo-de-carvalho",
-            "label": "Olavo de Carvalho",
+            "user": "Olavo de Carvalho",
             "x": getAnX(),
             "y": getAnY(),
             "color": red,
@@ -533,27 +533,27 @@ g = {
         },
         {
             "id": "onyx-lorenzoni",
-            "label": "Onyx Lorenzoni",
+            "user": "Onyx Lorenzoni",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 361000,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/OnyxLorezoni-AlanSantosPR.jpg",
             "link": ""
         },
         {
             "id": "pastor-altair-germano",
-            "label": "Pastor Altair Germano",
+            "user": "Pastor Altair Germano",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
             "size": 6371,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorAltairGermano-ReproducaoFacebok.jpg",
             "link": ""
         },
         {
             "id": "pastor-estevam-fernandes",
-            "label": "Pastor Estevam Fernandes",
+            "user": "Pastor Estevam Fernandes",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -563,27 +563,27 @@ g = {
         },
         {
             "id": "pastor-eurico",
-            "label": "Pastor Eurico",
+            "user": "Pastor Eurico",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 156,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorEurico-CamaradosDeputados.jpg",
             "link": ""
         },
         {
             "id": "pastor-francisco-tercio",
-            "label": "Pastor Francisco Tercio",
+            "user": "Pastor Francisco Tercio",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
             "size": 2,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorFranciscoTercio-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "pastor-honorio-pinto",
-            "label": "Pastor Honorio Pinto",
+            "user": "Pastor Honorio Pinto",
             "x": getAnX(),
             "y": getAnY(),
             "color": red,
@@ -593,37 +593,37 @@ g = {
         },
         {
             "id": "pastor-jonatas-camara",
-            "label": "Pastor Jonatas Camara",
+            "user": "Pastor Jonatas Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
             "size": 521,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorJonatasCamara-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "pastor-paulo-bengtson",
-            "label": "Pastor Paulo Bengtson",
+            "user": "Pastor Paulo Bengtson",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 177,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorPauloBengtson-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "pastor-sargento-isidorio",
-            "label": "Pastor Sargento Isidorio",
+            "user": "Pastor Sargento Isidorio",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 188,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorSargentoIsidorio-CamaradosDeputados.jpg",
             "link": ""
         },
         {
             "id": "pastor-sergio-queiroz",
-            "label": "Pastor Sergio Queiroz",
+            "user": "Pastor Sergio Queiroz",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -633,7 +633,7 @@ g = {
         },
         {
             "id": "paulo-martins",
-            "label": "Paulo Martins",
+            "user": "Paulo Martins",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -643,17 +643,17 @@ g = {
         },
         {
             "id": "philipe-camara",
-            "label": "Philipe Camara",
+            "user": "Philipe Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
             "size": 14200,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PhilipeCamara-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "platiny-soares",
-            "label": "Platiny Soares",
+            "user": "Platiny Soares",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -663,47 +663,47 @@ g = {
         },
         {
             "id": "pr-jecer-goes",
-            "label": "Pr Jecer Goes",
+            "user": "Pr Jecer Goes",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
             "size": 9359,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PrJecerGoes-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "priscila-costa",
-            "label": "Priscila Costa",
+            "user": "Priscila Costa",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 8847,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PriscilaCosta-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "rafaell-milas-de-oliveira",
-            "label": "Rafaell Milas de Oliveira",
+            "user": "Rafaell Milas de Oliveira",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 131,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/RafaellMilasdeOliveira-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "rebekah-camara",
-            "label": "Rebekah Camara",
+            "user": "Rebekah Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
             "size": 16400,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/RebekahCamara-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "robson-rodovalho",
-            "label": "Robson Rodovalho",
+            "user": "Robson Rodovalho",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
@@ -713,7 +713,7 @@ g = {
         },
         {
             "id": "rodrigo-constantino",
-            "label": "Rodrigo Constantino",
+            "user": "Rodrigo Constantino",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -723,17 +723,17 @@ g = {
         },
         {
             "id": "sargento-fahur",
-            "label": "Sargento Fahur",
+            "user": "Sargento Fahur",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 429000,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/SargentoFahur-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
             "id": "silas-camara",
-            "label": "Silas Camara",
+            "user": "Silas Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
@@ -743,7 +743,7 @@ g = {
         },
         {
             "id": "silas-malafaia",
-            "label": "Silas Malafaia",
+            "user": "Silas Malafaia",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -753,27 +753,27 @@ g = {
         },
         {
             "id": "soraya-thronicke",
-            "label": "Soraya Thronicke",
+            "user": "Soraya Thronicke",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 34400,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/SorayaThronicke-EdilsonRodriguesAgenciaSenado.jpg",
             "link": ""
         },
         {
             "id": "thiago-camara",
-            "label": "Thiago Camara",
+            "user": "Thiago Camara",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
             "size": 116,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/ThiagoCamara-IsraelCarvalho.jpg",
             "link": ""
         },
         {
             "id": "tulio-ferreira",
-            "label": "Tulio Ferreira",
+            "user": "Tulio Ferreira",
             "x": getAnX(),
             "y": getAnY(),
             "color":  red,
@@ -783,12 +783,12 @@ g = {
         },
         {
             "id": "victorio-galli",
-            "label": "Victorio Galli",
+            "user": "Victorio Galli",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
             "size": 96,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/VictorioGalli-LuisMacedoCamaraDosDeputados.jpg",
             "link": ""
         },
     ],
