@@ -505,9 +505,17 @@
 
     // When the stage is clicked, we just color each
     // node and edge with its original color.
-    // s.bind('clickStage', function(e) {
-    //   reiniciar();
-    // });
+    s.bind('clickStage', function(e) {
+      // reiniciar();
+      s.graph.nodes().forEach(function(n) {
+        n.color = n.originalColor;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.color = e.originalColor;
+        e.type = "line";
+      });
+      s.refresh();
+    });
 
     $("#limpar-selecao").click(function() {
       reiniciar();
