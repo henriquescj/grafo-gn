@@ -415,8 +415,6 @@
         enableHovering: false,
         mouseWheelEnabled: false,
         doubleClickEnabled: false,
-        borderSize: 1,
-        defaultNodeBorderColor: "#fff",
       },
     });
 
@@ -433,8 +431,15 @@
     saveOriginalColors();
 
     function reiniciar() {
-      s.graph.clear();
-      s.graph.read(g);
+      // s.graph.clear();
+      // s.graph.read(g);
+      s.graph.nodes().forEach(function(n) {
+        n.color = n.originalColor;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.color = e.originalColor;
+        e.type = "line";
+      });
       s.refresh();
       saveOriginalColors();
       $(".filter-categories").prop("checked", true).addClass("categoriaSelecionada");
@@ -503,15 +508,7 @@
     // When the stage is clicked, we just color each
     // node and edge with its original color.
     s.bind('clickStage', function(e) {
-      // reiniciar();
-      s.graph.nodes().forEach(function(n) {
-        n.color = n.originalColor;
-      });
-      s.graph.edges().forEach(function(e) {
-        e.color = e.originalColor;
-        e.type = "line";
-      });
-      s.refresh();
+      reiniciar();
     });
 
     $("#limpar-selecao").click(function() {
