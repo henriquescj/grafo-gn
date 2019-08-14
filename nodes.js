@@ -588,7 +588,7 @@ g = {
             "y": getAnY(),
             "color": red,
             "size": 2105,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/PastorHonorioPinto-ReproducaoFacebook.jpg",
             "link": ""
         },
         {
@@ -768,7 +768,7 @@ g = {
             "y": getAnY(),
             "color":  red,
             "size": 116,
-            "img":  "img/ThiagoCamara-IsraelCarvalho.jpg",
+            "img":  "img/ThiagoCamara-IsraelCarvalho.png",
             "link": ""
         },
         {
