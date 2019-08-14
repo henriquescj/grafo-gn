@@ -406,8 +406,8 @@
       settings: {
         minNodeSize: 5,
         maxNodeSize: 30,
-        minEdgeSize: 2,
-        maxEdgeSize: 2,
+        minEdgeSize: 3,
+        maxEdgeSize: 3,
         singleHover: true,
         drawLabels: false,
         drawEdgeLabels: false,
@@ -415,6 +415,8 @@
         enableHovering: false,
         mouseWheelEnabled: false,
         doubleClickEnabled: false,
+        borderSize: 1,
+        defaultNodeBorderColor: "#fff",
       },
     });
 
@@ -572,7 +574,7 @@
       scaleNodes: 1.5,
       gridSize: 75,
       easing: 'quadraticInOut', // animation transition function
-      duration: 10  // animation duration. Long here for the purposes of this example only
+      duration: 500  // animation duration. Long here for the purposes of this example only
     });
     // Bind the events:
     noverlapListener.bind('start stop interpolate', function(e) {
