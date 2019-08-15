@@ -4,8 +4,8 @@ function getAnX() {
     return Math.floor(Math.random() * (max - min)) + min;
 };
 function getAnY() {
-    min = -250;
-    max = 250;
+    min = -500;
+    max = 500;
     return Math.floor(Math.random() * (max - min)) + min;
 };
 
