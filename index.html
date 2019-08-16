@@ -578,12 +578,12 @@
     });
     // Bind the events:
     noverlapListener.bind('start stop interpolate', function(e) {
-      console.log(e.type);
+      // console.log(e.type);
       if(e.type === 'start') {
-        console.time('noverlap');
+        // console.time('noverlap');
       }
       if(e.type === 'interpolate') {
-        console.timeEnd('noverlap');
+        // console.timeEnd('noverlap');
       }
     });
     s.startNoverlap();

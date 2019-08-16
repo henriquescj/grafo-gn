@@ -665,6 +665,7 @@ edgesArray = [
     'marco-feliciano',
     'flavio-bolsonaro',
     'carlos-bolsonaro',
+    'damares-alves',
 ];
 $.each(edgesArray, function (index, person) {
     g.edges.push({
