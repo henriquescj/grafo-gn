@@ -15,6 +15,7 @@ categories['blue'] = [
     'delegado-waldir',
     'eduardo-bolsonaro',
     'eli-borges',
+    'ernesto-araujo',
     'felipe-francischini',
     'fernando-francischini',
     'flavio-bolsonaro',

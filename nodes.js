@@ -192,6 +192,16 @@ g = {
             "link": ""
         },
         {
+            "id": "ernesto-araujo",
+            "user": "Ernesto Araújo",
+            "x": getAnX(),
+            "y": getAnY(),
+            "color": blue,
+            "size": 363300,
+            "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg.jpg",
+            "link": ""
+        },
+        {
             "id": "fernando-francischini",
             "user": "Fernando Francischini",
             "x": getAnX(),
