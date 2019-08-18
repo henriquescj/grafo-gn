@@ -208,7 +208,7 @@ g = {
             "y": getAnY(),
             "color": blue,
             "size": 363300,
-            "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg",
+            "img":  "img/user.png",
             "link": ""
         },
         {
@@ -219,6 +219,7 @@ g = {
             "color": blue,
             "size": 11000,
             "img":  "img/FelipeFranscichini-ALPR.jpg",
+
             "link": ""
         },
         {
@@ -273,7 +274,7 @@ g = {
         },
         {
             "id": "helio-bolsonaro",
-            "user": "Helio Bolsonaro",
+            "user": "Hélio Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -313,7 +314,7 @@ g = {
         },
         {
             "id": "joao-campos",
-            "user": "Joao Campos",
+            "user": "João Campos",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
@@ -358,12 +359,12 @@ g = {
             "y": getAnY(),
             "color":  red,
             "size": 41900,
-            "img":  "img/perfil-um.jpg",
+            "img":  "img/user.png",
             "link": ""
         },
         {
             "id": "josue-goncalves",
-            "user": "Josue Goncalves",
+            "user": "Josué Goncalves",
             "x": getAnX(),
             "y": getAnY(),
             "color": yellow,
@@ -423,7 +424,7 @@ g = {
         },
         {
             "id": "lucia-rodovalho",
-            "user": "Lucia Rodovalho",
+            "user": "Lúcia Rodovalho",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -493,7 +494,7 @@ g = {
         },
         {
             "id": "marcio-valadao",
-            "user": "Marcio Valadao",
+            "user": "Marcio Valadão",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -603,7 +604,7 @@ g = {
         },
         {
             "id": "pastor-francisco-tercio",
-            "user": "Pastor Francisco Tercio",
+            "user": "Pastor Francisco Tércio",
             "x": getAnX(),
             "y": getAnY(),
             "color":  yellow,
@@ -613,7 +614,7 @@ g = {
         },
         {
             "id": "pastor-honorio-pinto",
-            "user": "Pastor Honorio Pinto",
+            "user": "Pastor Honório Pinto",
             "x": getAnX(),
             "y": getAnY(),
             "color": red,
@@ -643,7 +644,7 @@ g = {
         },
         {
             "id": "pastor-sargento-isidorio",
-            "user": "Pastor Sargento Isidorio",
+            "user": "Pastor Sargento Isidório",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
