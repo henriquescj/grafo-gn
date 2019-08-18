@@ -438,15 +438,15 @@ edgesArray = [
     'tulio-ferreira',
     'andre-camara',
 ];
-// $.each(edgesArray, function (index, person) {
-//     g.edges.push({
-//         id: 'elienai-camara' + index,
-//         source: 'elienai-camara',
-//         target: person,
-//         size: 1,
-//         type: 'dash',
-//     });
-// });
+$.each(edgesArray, function (index, person) {
+    g.edges.push({
+        id: 'elienai-camara' + index,
+        source: 'elienai-camara',
+        target: person,
+        size: 1,
+        type: 'dash',
+    });
+});
 
 // ernesto-araujo
 edgesArray = [
@@ -494,15 +494,15 @@ edgesArray = [
     'joice-hasselmann',
     'fernando-francischini',
 ];
-// $.each(edgesArray, function (index, person) {
-//     g.edges.push({
-//         id: 'felipe-francischini' + index,
-//         source: 'felipe-francischini',
-//         target: person,
-//         size: 1,
-//         type: 'dash',
-//     });
-// });
+$.each(edgesArray, function (index, person) {
+    g.edges.push({
+        id: 'felipe-francischini' + index,
+        source: 'felipe-francischini',
+        target: person,
+        size: 1,
+        type: 'dash',
+    });
+});
 // fernando-francischini
 edgesArray = [
     'bernardo-pires-kuster',
@@ -540,7 +540,7 @@ edgesArray = [
     'paulo-martins',
     'magno-malta',
     'joao-campos',
-    // 'felipe-francischini',
+    'felipe-francischini',
     'alberto-fraga',
     'fernando-francischini',
     'marco-feliciano',
@@ -615,7 +615,7 @@ edgesArray = [
     'philipe-camara',
     'rebekah-camara',
     'silas-camara',
-    // 'elienai-camara',
+    'elienai-camara',
     'naiane-camara',
 ];
 $.each(edgesArray, function (index, person) {
@@ -771,7 +771,7 @@ edgesArray = [
     'jair-bolsonaro',
     'olavo-de-carvalho',
     'rodrigo-constantino',
-    // 'felipe-francischini',
+    'felipe-francischini',
     'alvaro-dias',
 ];
 $.each(edgesArray, function (index, person) {
@@ -958,7 +958,7 @@ edgesArray = [
     'silas-camara',
     'marco-feliciano',
     'pastor-honorio-pinto',
-    // 'elienai-camara',
+    'elienai-camara',
     'naiane-camara',
     'rebekah-camara',
     'philipe-camara',
@@ -1511,7 +1511,7 @@ edgesArray = [
     'pastor-estevam-fernandes',
     'robson-rodovalho',
     'claudio-duarte',
-    // 'elienai-camara',
+    'elienai-camara',
     'jorge-linhares',
     'silas-camara',
     'ana-paula-valadao',
@@ -1537,7 +1537,7 @@ $.each(edgesArray, function (index, person) {
 });
 // platiny-soares
 edgesArray = [
-    // 'elienai-camara',
+    'elienai-camara',
     'marcel-alexandre',
     'heber-camara',
     'silas-camara',
@@ -1758,7 +1758,7 @@ edgesArray = [
     'philipe-camara',
     'silas-malafaia',
     'rebekah-camara',
-    // 'elienai-camara',
+    'elienai-camara',
     'silas-malafaia',
     'tulio-ferreira',
     'luana-camara',

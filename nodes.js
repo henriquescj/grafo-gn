@@ -188,6 +188,16 @@ g = {
             "y": getAnY(),
             "color": blue,
             "size": 722,
+            "img":  "img/EliBorges-CamaradosDeputados.jpg",
+            "link": ""
+        },
+        {
+            "id": "elienai-camara",
+            "user": "Elienai Camara",
+            "x": getAnX(),
+            "y": getAnY(),
+            "color": red,
+            "size": 462,
             "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg",
             "link": ""
         },
@@ -198,7 +208,17 @@ g = {
             "y": getAnY(),
             "color": blue,
             "size": 363300,
-            "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg.jpg",
+            "img":  "img/ElienaiCamara-ReproducaoFacebook.jpg",
+            "link": ""
+        },
+        {
+            "id": "felipe-francischini",
+            "user": "Felipe Francischini",
+            "x": getAnX(),
+            "y": getAnY(),
+            "color": blue,
+            "size": 11000,
+            "img":  "img/FelipeFranscichini-ALPR.jpg",
             "link": ""
         },
         {
