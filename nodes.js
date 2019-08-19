@@ -269,7 +269,7 @@ g = {
             "y": getAnY(),
             "color":  red,
             "size": 87,
-            "img":  "img/HeberCamara-ReproducaoInstagram.png",
+            "img":  "img/HeberCamara-Reproducao-Instagram.png",
             "link": ""
         },
         {
@@ -799,7 +799,7 @@ g = {
             "y": getAnY(),
             "color":  red,
             "size": 116,
-            "img":  "img/ThiagoCamara-IsraelCarvalho.png",
+            "img":  "img/ThiagoCamara-Israel-Carvalho.png",
             "link": ""
         },
         {
