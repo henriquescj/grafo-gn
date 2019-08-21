@@ -121,7 +121,7 @@ $.each(edgesArray, function (index, person) {
 });
 // alvaro-dias
 edgesArray = [
-    // 'selma-arruda',
+    'selma-arruda',
     'damares-alves',
     'major-olimpio',
     'alexandre-frota',
@@ -134,7 +134,7 @@ edgesArray = [
     'rodrigo-constantino',
     'alberto-fraga',
     'marco-feliciano',
-    // 'felipe-francischini',
+    'felipe-francischini',
     'joice-hasselmann',
 ];
 $.each(edgesArray, function (index, person) {
@@ -1733,15 +1733,16 @@ edgesArray = [
     'eduardo-bolsonaro',
     'jair-bolsonaro',
 ];
-// $.each(edgesArray, function (index, person) {
-//     g.edges.push({
-//         id: 'selma-arruda' + index,
-//         source: 'selma-arruda',
-//         target: person,
-//         size: 1,
-//         type: 'dash',
-//     });
-// });
+$.each(edgesArray, function (index, person) {
+    g.edges.push({
+        id: 'selma-arruda' + index,
+        source: 'selma-arruda',
+        target: person,
+        size: 1,
+        type: 'dash',
+        color: "rgba(0,49,61,0.5)",
+    });
+});
 // silas-camara
 edgesArray = [
     'platiny-soares',

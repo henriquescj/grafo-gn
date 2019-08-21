@@ -822,5 +822,15 @@ g = {
             "img":  "img/VictorioGalli-LuisMacedoCamaraDosDeputados.jpg",
             "link": ""
         },
+        {
+            "id": "selma-arruda",
+            "user": "Selma Arruda",
+            "x": getAnX(),
+            "y": getAnY(),
+            "color": blue,
+            "size": 10800,
+            "img":  "img/SelmaArruda-PedroFrançaAgenciaSenado.jpg",
+            "link": ""
+        },
     ],
 };
