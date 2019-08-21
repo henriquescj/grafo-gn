@@ -32,7 +32,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: "rgba(0,49,61,0.3)",
+        color: grey,
     });
 });
 // alan-rick
@@ -60,7 +60,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: "rgba(0,49,61,0.3)",
+        color: grey,
     });
 });
 // alberto-fraga
@@ -87,7 +87,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: "rgba(0,49,61,0.3)",
+        color: grey,
     });
 });
 // alexandre-frota
@@ -116,7 +116,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // alvaro-dias
@@ -144,7 +144,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // ana-lucia-camara
@@ -162,7 +162,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // ana-paula-valadao
@@ -176,7 +176,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // anderson-ferreira
@@ -194,7 +194,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // andre-camara
@@ -203,7 +203,7 @@ edgesArray = [
     'magno-malta',
     'eduardo-bolsonaro',
     'flavio-bolsonaro',
-    // 'elienai-camara',
+    'elienai-camara',
     'heber-camara',
     'ana-paula-valadao',
     'josue-goncalves',
@@ -225,7 +225,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // bernardo-pires-kuster
@@ -248,7 +248,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // carlos-bolsonaro
@@ -280,7 +280,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // carlos-gomes
@@ -295,7 +295,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // caroline-de-toni
@@ -314,7 +314,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // claudio-duarte
@@ -331,7 +331,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // damares-alves
@@ -353,7 +353,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // delegado-waldir
@@ -369,7 +369,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // eduardo-bolsonaro
@@ -383,7 +383,7 @@ edgesArray = [
     'sargento-fahur',
     'alberto-fraga',
     'platiny-soares',
-    // 'felipe-francischini',
+    'felipe-francischini',
     'fernando-francischini',
     'onyx-lorenzoni',
     'olavo-de-carvalho',
@@ -404,7 +404,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // eli-borges
@@ -418,7 +418,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // elienai-camara
@@ -445,6 +445,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
+        color: grey,
     });
 });
 
@@ -471,7 +472,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 
@@ -500,6 +501,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
+        color: grey,
     });
 });
 // fernando-francischini
@@ -523,7 +525,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // flavio-bolsonaro
@@ -558,7 +560,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // francisco-junior
@@ -586,7 +588,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // gilson-de-souza
@@ -602,7 +604,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // heber-camara
@@ -624,7 +626,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // helio-bolsonaro
@@ -638,7 +640,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // hidekazu-takayama
@@ -668,7 +670,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // jair-bolsonaro
@@ -702,7 +704,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: "rgba(0,49,61,0.3)",
+        color: grey,
     });
 });
 // jaufran-siqueira
@@ -716,7 +718,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // joao-campos
@@ -738,7 +740,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // joel-da-harpa
@@ -752,7 +754,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // joice-hasselmann
@@ -780,7 +782,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // jorge-linhares
@@ -796,7 +798,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // joselito-muller
@@ -823,7 +825,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // josue-goncalves
@@ -846,7 +848,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // juanribe-pagliarin
@@ -863,7 +865,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // julio-cesar-ribeiro
@@ -891,7 +893,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // leandro-ruschel
@@ -919,7 +921,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // liziane-bayer
@@ -949,7 +951,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // luana-camara
@@ -970,7 +972,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // lucia-rodovalho
@@ -992,7 +994,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // luciano-subira
@@ -1011,7 +1013,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // luiz-philippe-o-braganca
@@ -1038,7 +1040,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // magno-malta
@@ -1061,7 +1063,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // major-olimpio
@@ -1076,7 +1078,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // major-vitor-hugo
@@ -1099,7 +1101,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // marcel-alexandre
@@ -1131,7 +1133,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // marcio-valadao
@@ -1150,7 +1152,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // marco-feliciano
@@ -1173,7 +1175,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // marcos-rogerio
@@ -1196,7 +1198,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // mecias-de-jesus
@@ -1210,7 +1212,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // michele-collins
@@ -1224,7 +1226,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // naiane-camara
@@ -1248,7 +1250,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // olavo-de-carvalho
@@ -1268,7 +1270,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // onyx-lorenzoni
@@ -1300,7 +1302,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // pastor-altair-germano
@@ -1320,7 +1322,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // pastor-estevam-fernandes
@@ -1335,7 +1337,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // pastor-eurico
@@ -1350,7 +1352,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // pastor-francisco-tercio
@@ -1368,7 +1370,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // pastor-honorio-pinto
@@ -1394,7 +1396,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // pastor-jonatas-camara
@@ -1423,7 +1425,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // pastor-paulo-bengtson
@@ -1439,7 +1441,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // pastor-sargento-isidorio
@@ -1453,7 +1455,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // pastor-sergio-queiroz
@@ -1469,7 +1471,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // paulo-martins
@@ -1499,7 +1501,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // philipe-camara
@@ -1531,7 +1533,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // platiny-soares
@@ -1555,7 +1557,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // pr-jecer-goes
@@ -1576,7 +1578,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // priscila-costa
@@ -1612,7 +1614,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // rafaell-milas-de-oliveira
@@ -1630,7 +1632,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // rebekah-camara
@@ -1653,7 +1655,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // robson-rodovalho
@@ -1676,7 +1678,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // rodrigo-constantino
@@ -1702,7 +1704,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // sargento-fahur
@@ -1724,7 +1726,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: "rgba(0,49,61,0.5)",
+        color: grey,
     });
 });
 // selma-arruda
@@ -1740,7 +1742,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: "rgba(0,49,61,0.5)",
+        color: grey,
     });
 });
 // silas-camara
@@ -1775,7 +1777,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // silas-malafaia
@@ -1798,7 +1800,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(203,154,0,0.5)',
+        color: grey,
     });
 });
 // soraya-thronicke
@@ -1825,7 +1827,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
 // thiago-camara
@@ -1844,7 +1846,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // tulio-ferreira
@@ -1861,7 +1863,7 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(112,0,13,0.5)',
+        color: grey,
     });
 });
 // victorio-galli
@@ -1886,6 +1888,6 @@ $.each(edgesArray, function (index, person) {
         target: person,
         size: 1,
         type: 'dash',
-        color: 'rgba(0,49,61,0.5)',
+        color: grey,
     });
 });
