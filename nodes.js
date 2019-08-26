@@ -208,9 +208,10 @@ g = {
             "y": getAnY(),
             "color": blue,
             "size": 363300,
-            "img":  "img/user.png",
+            "img":  "img/ernesto.jpg",
             "link": ""
         },
+        
         {
             "id": "felipe-francischini",
             "user": "Felipe Francischini",
