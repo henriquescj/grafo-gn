@@ -1,11 +1,11 @@
 function getAnX() {
-    min = -500;
-    max = 500;
+    min = 0;
+    max = 0;
     return Math.floor(Math.random() * (max - min)) + min;
 };
 function getAnY() {
-    min = -500;
-    max = 500;
+    min = 0;
+    max = 0;
     return Math.floor(Math.random() * (max - min)) + min;
 };
 
@@ -211,7 +211,7 @@ g = {
             "img":  "img/ernesto.jpg",
             "link": ""
         },
-        
+
         {
             "id": "felipe-francischini",
             "user": "Felipe Francischini",
@@ -235,7 +235,7 @@ g = {
         },
         {
             "id": "flavio-bolsonaro",
-            "user": "Flavio Bolsonaro",
+            "user": "Flávio Bolsonaro",
             "x": getAnX(),
             "y": getAnY(),
             "color": blue,
